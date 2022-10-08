@@ -7,7 +7,7 @@ describe('Author', () => {
   const props = {
     author: {
       name: 'test',
-      photo: '/photo2.png',
+      photo: '/photo2.jpg',
       bio: 'test',
     },
   };

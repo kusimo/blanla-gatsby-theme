@@ -30,7 +30,7 @@ export const PureAuthor = ({ author, showBio, showTwitter, small }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @victorczhou
+                @abidemikusimo
               </a>
             )}
           </h4>

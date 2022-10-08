@@ -27,10 +27,10 @@ module.exports = {
   ],
   author: {
     name: 'Abidemi Kusimo',
-    photo: '/photo2.png',
-    photoLarge: '/photo2-large.png',
+    photo: '/photo2.jpg',
+    photoLarge: '/photo2-large.jpg',
     bio:
-      'Software Engineer. I blog about <a href="/tag/web-development/">web development</a>, and <a href="/tags/">more topics</a>.',
+      'Frontend Web Developer. I blog about <a href="/tag/web-development/">web development</a>, and <a href="/tags/">more topics</a>.',
     contacts: {
       email: 'askusimo@gmail.com',
       twitter: 'abidemikusimo',
