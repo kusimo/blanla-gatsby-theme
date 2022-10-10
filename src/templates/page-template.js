@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
 import NavHeader from '../components/NavHeader';
-import MovableSidebarContent from '../components/MovableSidebarContent';
+import Footer from '../components/Footer';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
 import TemplateWrapper from '../components/TemplateWrapper';
@@ -43,7 +43,7 @@ const PageTemplate = ({ data }: Props) => {
         </Page>
         <Sidebar hideSubscribeForm={hideSubscribe} hideSubscribeForm={true} hideAd={true} />
       </Layout>
-      <MovableSidebarContent mobile />
+      <Footer />
     </TemplateWrapper>
   );
 };

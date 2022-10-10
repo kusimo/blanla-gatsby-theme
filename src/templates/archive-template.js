@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import TemplateWrapper from '../components/TemplateWrapper';
 
 type Props = {|
@@ -29,6 +30,7 @@ const ArchiveTemplate = ({ data }: Props) => {
         </Page>
         <Sidebar hideSubscribeForm={true} hideAd={true} />
       </Layout>
+      <Footer />
     </TemplateWrapper>
   );
 };

@@ -5,7 +5,6 @@ import Helmet from 'react-helmet';
 
 import Feed from '../components/Feed';
 import Layout from '../components/Layout'; 
-import MovableSidebarContent from '../components/MovableSidebarContent';
 import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';

@@ -8,6 +8,7 @@ import FixedScrollContainer from '../components/FixedScrollContainer';
 import Layout from '../components/Layout';
 import NavHeader from '../components/NavHeader';
 import Post from '../components/Post';
+import Footer from '../components/Footer';
 import Series from '../components/Series';
 import SubscribePopup from '../components/SubscribePopup';
 import TemplateWrapper from '../components/TemplateWrapper';
@@ -129,6 +130,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
           </FixedScrollContainer>
         </>
       )}
+       <Footer />
     </TemplateWrapper>
   );
 };
