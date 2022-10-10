@@ -4,7 +4,6 @@ import Headroom from 'react-headroom';
 
 import { getIcon } from '../../utils';
 import Author from '../Author';
-import DarkModeToggle from '../DarkModeToggle';
 import DisplayIf from '../DisplayIf';
 import Icon from '../Icon';
 import Menu from '../Menu';
@@ -43,12 +42,6 @@ function NavHeader() {
         </DisplayIf>
         <DisplayIf desktop className={styles['header__right']}>
           <Menu horizontal bold />
-          <div className={styles['dark-mode-toggle']}>
-            <DarkModeToggle />
-          </div>
-        </DisplayIf>
-        <DisplayIf mobile className={`${styles['dark-mode-toggle']} ${styles['mobile']}`}>
-          <DarkModeToggle />
         </DisplayIf>
         <DisplayIf mobile>
           <button
