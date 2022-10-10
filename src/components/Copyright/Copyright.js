@@ -1,12 +1,25 @@
 // @flow
-import React from 'react';
+
+import { graphql, StaticQuery } from "gatsby"
+import React from "react"
 
 import styles from './Copyright.module.scss';
 
-type Props = {|
-  +copyright: string,
-|};
-
-const Copyright = ({ copyright }: Props) => <p className={styles['copyright']}>{copyright}</p>;
-
-export default Copyright;
+export default function Header() {
+  return (
+    <StaticQuery
+      query={graphql`
+        query HeadingQuery {
+          site {
+            siteMetadata {
+              copyright
+            }
+          }
+        }
+      `}
+      render={data => (
+        <p className={styles['copyright']}>{data.site.siteMetadata.copyright}</p>
+      )}
+    />
+  );
+}

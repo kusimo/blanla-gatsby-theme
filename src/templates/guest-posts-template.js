@@ -4,6 +4,7 @@ import React from 'react';
 
 import Feed from '../components/Feed';
 import Layout from '../components/Layout';
+import NavHeader from '../components/NavHeader';
 import MovableSidebarContent from '../components/MovableSidebarContent';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
@@ -22,8 +23,8 @@ const GuestPostsTemplate = ({ data }: Props) => {
 
   return (
     <TemplateWrapper>
+      <NavHeader />
       <Layout title={pageTitle} description={siteSubtitle}>
-        <Sidebar />
         <Page
           title="More Posts"
           description={
@@ -50,6 +51,7 @@ const GuestPostsTemplate = ({ data }: Props) => {
         >
           <Feed edges={edges} />
         </Page>
+        <Sidebar hideSubscribeForm={true} hideAd={true} />
       </Layout>
       <MovableSidebarContent mobile />
     </TemplateWrapper>

@@ -20,7 +20,6 @@ const SubscriberThankYouTemplate = ({ data }) => {
         <Helmet>
           <meta name="robots" content="noindex" />
         </Helmet>
-        <Sidebar hideSubscribeForm hideAd />
         <Page title="Thanks for Subscribing!">
           <h3>Check your email to confirm your subscription.</h3>
           <p>Once you do, you'll get new posts in your email inbox.</p>
@@ -31,6 +30,7 @@ const SubscriberThankYouTemplate = ({ data }) => {
             Check out some of my <Link to="/top/">Top Posts</Link>.
           </p>
         </Page>
+        <Sidebar hideSubscribeForm hideAd />
       </Layout>
     </TemplateWrapper>
   );

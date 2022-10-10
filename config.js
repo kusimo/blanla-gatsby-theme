@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://blanla.com',
   title: 'blanla.com',
   subtitle: 'Frontend Web Developer. I blog about web development and more topics.',
-  copyright: '© Abidemi Kusimo 2022',
+  copyright: 'Copyright © 2022 Abidemi Kusimo',
   postsPerPage: 8,
   googleAnalyticsId: 'UA-58664433-1',
   menu: [

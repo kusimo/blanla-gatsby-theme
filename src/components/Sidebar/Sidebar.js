@@ -2,7 +2,6 @@
 import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 
-import Menu from '../Menu';
 import MovableSidebarContent from '../MovableSidebarContent';
 import Author from './Author';
 import styles from './Sidebar.module.scss';
@@ -24,7 +23,6 @@ export const PureSidebar = ({ data, hideSubscribeForm, hideAd, location }: PureP
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
         <Author author={author} />
-        <Menu location={location} />
         <MovableSidebarContent desktop hideSubscribeForm={hideSubscribeForm} hideAd={hideAd} />
       </div>
     </div>

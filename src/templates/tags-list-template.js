@@ -3,6 +3,7 @@ import kebabCase from 'lodash/kebabCase';
 import React from 'react';
 
 import Layout from '../components/Layout';
+import NavHeader from '../components/NavHeader';
 import MovableSidebarContent from '../components/MovableSidebarContent';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
@@ -16,8 +17,8 @@ const TagsListTemplate = ({ data }) => {
 
   return (
     <TemplateWrapper>
+      <NavHeader />
       <Layout title={`Tags - ${title}`} description={subtitle}>
-        <Sidebar />
         <Page title="Tags" subtitle={<Link to="/">← Back to Home</Link>}>
           <ul>
             {group.map(tag => (
@@ -29,6 +30,7 @@ const TagsListTemplate = ({ data }) => {
             ))}
           </ul>
         </Page>
+        <Sidebar hideSubscribeForm={true} hideAd={true} />
       </Layout>
       <MovableSidebarContent mobile />
     </TemplateWrapper>

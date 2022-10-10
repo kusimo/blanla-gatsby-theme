@@ -4,6 +4,7 @@ import React from 'react';
 
 import Feed from '../components/Feed';
 import Layout from '../components/Layout';
+import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
 import TemplateWrapper from '../components/TemplateWrapper';
@@ -18,14 +19,15 @@ const ArchiveTemplate = ({ data }: Props) => {
 
   return (
     <TemplateWrapper>
+      <NavHeader />
       <Layout
         title={`Blog Archive - ${siteTitle}`}
         description={`An archive of all my blog posts. ${siteSubtitle}`}
       >
-        <Sidebar />
         <Page>
           <Feed edges={edges} shortened={true} />
         </Page>
+        <Sidebar hideSubscribeForm={true} hideAd={true} />
       </Layout>
     </TemplateWrapper>
   );

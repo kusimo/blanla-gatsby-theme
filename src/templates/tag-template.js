@@ -4,6 +4,7 @@ import React from 'react';
 
 import Feed from '../components/Feed';
 import Layout from '../components/Layout';
+import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import Sidebar from '../components/Sidebar';
@@ -233,6 +234,7 @@ const TagTemplate = ({ data, pageContext, location }: Props) => {
 
   return (
     <TemplateWrapper>
+      <NavHeader />
       <Layout title={pageTitle} description={metaDescriptions[tag] || siteSubtitle}>
         <Sidebar location={location} />
         <Page

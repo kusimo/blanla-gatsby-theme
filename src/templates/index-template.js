@@ -4,11 +4,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Feed from '../components/Feed';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout'; 
 import MovableSidebarContent from '../components/MovableSidebarContent';
+import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import SortBySelector from '../components/SortBySelector';
 import TemplateWrapper from '../components/TemplateWrapper';
 import { postPagePath, topPostsPagePath } from '../utils/page-paths';
@@ -36,6 +38,7 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
 
   return (
     <TemplateWrapper>
+      <NavHeader />
       <Layout title={pageTitle} description={siteSubtitle}>
         <Helmet>
           <script type="application/ld+json">
@@ -51,7 +54,6 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
 }`}
           </script>
         </Helmet>
-        <Sidebar location={location} />
         <Page
           title={currentPage > 1 ? `Page ${currentPage}` : ''}
           meta={<SortBySelector sortByNew={sortByNew} />}
@@ -65,8 +67,9 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
             numPages={numPages}
           />
         </Page>
+        <Sidebar location={location} hideSubscribeForm={true} hideAd={true} />
       </Layout>
-      <MovableSidebarContent mobile />
+      <Footer />
     </TemplateWrapper>
   );
 };

@@ -4,6 +4,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
+import NavHeader from '../components/NavHeader';
 import MovableSidebarContent from '../components/MovableSidebarContent';
 import Page from '../components/Page';
 import Sidebar from '../components/Sidebar';
@@ -30,16 +31,17 @@ const PageTemplate = ({ data }: Props) => {
 
   return (
     <TemplateWrapper>
+      <NavHeader />
       <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription}>
         {noIndex && (
           <Helmet>
             <meta name="robots" content="noindex" />
           </Helmet>
         )}
-        <Sidebar hideSubscribeForm={hideSubscribe} hideAd={hideAd} />
         <Page title={pageTitle}>
           <div dangerouslySetInnerHTML={{ __html: pageBody }} />
         </Page>
+        <Sidebar hideSubscribeForm={hideSubscribe} hideSubscribeForm={true} hideAd={true} />
       </Layout>
       <MovableSidebarContent mobile />
     </TemplateWrapper>

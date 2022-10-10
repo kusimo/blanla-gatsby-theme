@@ -4,7 +4,6 @@ import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 
 import Contacts from '../Contacts';
-import Copyright from '../Copyright';
 import DisplayIf from '../DisplayIf';
 import SubscribeForm from '../SubscribeForm';
 
@@ -28,7 +27,7 @@ export const PureMovableSidebarContent = ({
   hideAd,
   data,
 }: PureProps) => {
-  const { author, copyright } = data.site.siteMetadata;
+  const { author } = data.site.siteMetadata;
   return (
     <DisplayIf mobile={mobile} desktop={desktop}>
       {!hideSubscribeForm && (
@@ -36,7 +35,6 @@ export const PureMovableSidebarContent = ({
       )}
       {desktop && !hideAd && <CarbonAd />}
       <Contacts contacts={author.contacts} />
-      <Copyright copyright={copyright} />
     </DisplayIf>
   );
 };
