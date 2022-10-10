@@ -4,6 +4,7 @@ import Headroom from 'react-headroom';
 
 import { getIcon } from '../../utils';
 import Author from '../Author';
+import Title from '../Menu/Title';
 import DisplayIf from '../DisplayIf';
 import Icon from '../Icon';
 import Menu from '../Menu';
@@ -22,7 +23,7 @@ function NavHeader() {
     >
       <div className={cx({ header: true, 'no-shadow': menuShown })}>
         <DisplayIf desktop className={styles['header__left']}>
-          <Author />
+          <Title />
         </DisplayIf>
         {/**
          * The following two lines are a hack to get around the fact that we SSR the desktop
@@ -38,7 +39,7 @@ function NavHeader() {
           <div />
         </DisplayIf>
         <DisplayIf mobile className={`${styles['header__left']} ${styles['mobile']}`}>
-          <Author small />
+          <Title />
         </DisplayIf>
         <DisplayIf desktop className={styles['header__right']}>
           <Menu horizontal bold />
