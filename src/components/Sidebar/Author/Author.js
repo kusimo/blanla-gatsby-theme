@@ -10,11 +10,11 @@ const Author = ({ author }) => (
         <img src={withPrefix(author.photo)} className={styles['author__photo']} alt={author.name} />
       </Link>
       <div className={styles['author__title']}>
-        <h1>
+        <h3>
           <Link className={styles['author__title-link']} to="/">
             {author.name}
           </Link>
-        </h1>
+        </h3>
 
       </div>
     </div>

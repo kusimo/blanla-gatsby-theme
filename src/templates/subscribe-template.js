@@ -23,7 +23,6 @@ const SubscribeTemplate = ({ data, pageContext }: Object) => {
   return (
     <TemplateWrapper>
       <Layout title={`${title} - ${siteTitle}`}>
-        <Sidebar hideSubscribeForm hideAd />
         <Page title={title}>
           {updateSubscription ? (
             <p>Update your subscription preferences to my newsletter below.</p>
@@ -46,6 +45,7 @@ const SubscribeTemplate = ({ data, pageContext }: Object) => {
             Don't hesitate to <Link to="/contact/">Contact Me</Link> if you have any issues!
           </p>
         </Page>
+        <Sidebar hideSubscribeForm={true} hideAd={true} />
       </Layout>
     </TemplateWrapper>
   );

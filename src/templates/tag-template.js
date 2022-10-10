@@ -8,6 +8,7 @@ import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import TemplateWrapper from '../components/TemplateWrapper';
 import { tagPagePath } from '../utils/page-paths';
 
@@ -236,7 +237,6 @@ const TagTemplate = ({ data, pageContext, location }: Props) => {
     <TemplateWrapper>
       <NavHeader />
       <Layout title={pageTitle} description={metaDescriptions[tag] || siteSubtitle}>
-        <Sidebar location={location} />
         <Page
           title={`${tag}${currentPage > 1 ? ` - Page ${currentPage}` : ''}`}
           subtitle={<Link to="/tags/">← Back to All Tags</Link>}
@@ -251,7 +251,9 @@ const TagTemplate = ({ data, pageContext, location }: Props) => {
             numPages={numPages}
           />
         </Page>
+        <Sidebar location={location} hideSubscribeForm={true} hideAd={true} />
       </Layout>
+      <Footer />
     </TemplateWrapper>
   );
 };

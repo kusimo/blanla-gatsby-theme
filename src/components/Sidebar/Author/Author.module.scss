@@ -23,7 +23,7 @@
     flex-grow: 1;
     @include margin(.5, 0, .5, .3);
 
-    & h1 {
+    & h3 {
       font-size: $typographic-base-font-size * 1.5;
       font-weight: 600;
       @include line-height(1.5);

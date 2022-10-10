@@ -41,7 +41,7 @@ const PageTemplate = ({ data }: Props) => {
         <Page title={pageTitle}>
           <div dangerouslySetInnerHTML={{ __html: pageBody }} />
         </Page>
-        <Sidebar hideSubscribeForm={hideSubscribe} hideSubscribeForm={true} hideAd={true} />
+        <Sidebar hideSubscribeForm={true} hideAd={true} />
       </Layout>
       <Footer />
     </TemplateWrapper>

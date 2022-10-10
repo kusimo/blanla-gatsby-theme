@@ -9,20 +9,20 @@ module.exports = {
   googleAnalyticsId: 'UA-58664433-1',
   menu: [
     {
-      label: 'Blog',
+      label: 'Home',
       path: '/',
-    },
-    {
-      label: 'About',
-      path: '/about/',
     },
     {
       label: 'Tags',
       path: '/tags/',
     },
     {
-      label: 'More Posts',
-      path: '/posts/',
+      label: 'About',
+      path: '/about/',
+    },
+    {
+      label: 'Contact',
+      path: '/contact/',
     },
   ],
   author: {
