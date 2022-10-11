@@ -10,7 +10,6 @@ import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
-import SortBySelector from '../components/SortBySelector';
 import TemplateWrapper from '../components/TemplateWrapper';
 import { postPagePath, topPostsPagePath } from '../utils/page-paths';
 
@@ -55,7 +54,6 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
         </Helmet>
         <Page
           title={currentPage > 1 ? `Page ${currentPage}` : ''}
-          meta={<SortBySelector sortByNew={sortByNew} />}
         >
           <Feed edges={edges} />
           <Pagination

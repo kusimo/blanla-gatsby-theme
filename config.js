@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://blanla.com',
   title: 'blanla.com',
-  subtitle: 'Frontend Web Developer. I blog about web development and more topics.',
+  subtitle: 'Frontend Web Developer. I blog about web development.',
   copyright: 'Copyright © 2022 Abidemi Kusimo',
   postsPerPage: 8,
   googleAnalyticsId: 'UA-58664433-1',
@@ -38,5 +38,27 @@ module.exports = {
       rss: '/rss.xml',
     },
   },
+  popularTags: [
+    {
+      label: 'JavaScript',
+      path: '/tag/javascript',
+    },
+    {
+      label: 'WordPress',
+      path: '/tag/wordpress/',
+    },
+    {
+      label: 'Shopify',
+      path: '/tag/shopify/',
+    },
+    {
+      label: 'React',
+      path: '/tag/react/',
+    },
+    {
+      label: 'Web Development',
+      path: '/tag/web-development/',
+    },
+  ],
   previewImage: '/preview.png',
 };
