@@ -10,7 +10,6 @@ import NavHeader from '../components/NavHeader';
 import Post from '../components/Post';
 import Footer from '../components/Footer';
 import Series from '../components/Series';
-import SubscribePopup from '../components/SubscribePopup';
 import TemplateWrapper from '../components/TemplateWrapper';
 
 const CarbonAd = loadable(() => import('../components/CarbonAd'));
@@ -121,7 +120,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
           <Post post={slugNode} prevPost={prevNode} nextPost={nextNode} />
         )}
       </Layout>
-      {!isSeries && <SubscribePopup postSlug={slug} isML={isML} isWeb={isWeb} />}
+
       {hasScrolled && (
         <>
           <ShareIcons url={slug} title={postTitle} />
@@ -160,7 +159,6 @@ export const fragment = graphql`
             }
           }
           frontmatter {
-            ...SubscribePopupFragment
             asyncScript
             canonical
             category
