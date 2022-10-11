@@ -17,6 +17,7 @@
     box-shadow: none;
   }
 
+
   &__left {
     display: flex;
     flex-direction: row;
@@ -27,6 +28,7 @@
     &-photo img {
       border-radius: 50%;
     }
+    
 
     &-name {
       margin: 0 0 0 10px;
@@ -77,6 +79,7 @@
     }
   }
 }
+
 
 .popup {
   box-shadow: 0 4px 15px $color-gray-bg;

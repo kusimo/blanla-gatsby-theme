@@ -1,17 +1,20 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import useSiteMetadata from '../Hooks/UsesSteMetadata';
 
+import styles from './Title.module.scss';
+
 const Home = () => {
-  const { siteURL } = useSiteMetadata();
+  const { siteURL, title } = useSiteMetadata();
   return (
-    <h1>{ siteURL }</h1>
+    <h1 className={styles['siteTitle']}><Link to='/'>{title}</Link></h1>
   );
 }
 
 const Page = () => {
-  const { siteURL } = useSiteMetadata();
+  const { siteURL, title } = useSiteMetadata();
   return (
-    <p>{ siteURL }</p>
+    <p className={styles['siteTitle']}><Link to='/'>{title}</Link></p>
   );
 }
 
