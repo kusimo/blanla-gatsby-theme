@@ -38,14 +38,14 @@ module.exports = {
       rss: '/rss.xml',
     },
   },
-  popularTags: [
+  tags: [
     {
       label: 'JavaScript',
       path: '/tag/javascript',
     },
     {
-      label: 'WordPress',
-      path: '/tag/wordpress/',
+      label: 'Python',
+      path: '/tag/python/',
     },
     {
       label: 'Shopify',

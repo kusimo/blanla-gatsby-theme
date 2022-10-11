@@ -9,6 +9,7 @@ import NavHeader from '../components/NavHeader';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import Sidebar from '../components/Sidebar';
+import PopularTags from '../components/PopularTags/PopularTags';
 import Footer from '../components/Footer';
 import TemplateWrapper from '../components/TemplateWrapper';
 import { postPagePath, topPostsPagePath } from '../utils/page-paths';
@@ -55,6 +56,7 @@ const IndexTemplate = ({ data, pageContext, location }: Props) => {
         <Page
           title={currentPage > 1 ? `Page ${currentPage}` : ''}
         >
+          <PopularTags horizontal bold />
           <Feed edges={edges} />
           <Pagination
             currentPage={currentPage}

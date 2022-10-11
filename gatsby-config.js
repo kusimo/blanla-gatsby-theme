@@ -12,6 +12,7 @@ module.exports = {
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
     menu: siteConfig.menu,
+    tags: siteConfig.tags,
     author: siteConfig.author,
     previewImage: siteConfig.previewImage,
   },

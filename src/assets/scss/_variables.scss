@@ -7,6 +7,7 @@ $_color-base: #222;
 $_color-primary: #164BC5;
 $_color-secondary: #0F9640;
 $_color-primary-light: lighten($_color-primary, 12%);
+$_color-primary-light-fade: lighten($_color-primary, 54%);
 $_color-secondary-light: lighten($_color-secondary, 12%);
 $_color-gray-shadow: lighten($_color-base, 60%);
 
