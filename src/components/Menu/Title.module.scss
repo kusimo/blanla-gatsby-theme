@@ -3,6 +3,22 @@
 
 .siteTitle {
     font-size: 18px;
-    font-weight: bold;
     margin:0;
+    a {
+        font-size: $typographic-base-font-size;
+        color: $typographic-base-font-color;
+        font-weight: bold;
+        border: 0;
+        user-select: none;
+        padding: 0.25rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $color-primary;
+          border-bottom: 1px solid $color-primary;
+        }
+
+      }
 }

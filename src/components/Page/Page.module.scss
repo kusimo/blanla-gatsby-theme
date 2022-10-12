@@ -2,11 +2,10 @@
 @import '../../assets/scss/mixins';
 
 .page {
-  border-top: 1px solid $color-gray-border;
   @include margin-bottom(2);
 
   &__inner {
-    padding: 25px 20px;
+    padding: 16px 0px;
   }
 
   &__title {
@@ -55,7 +54,7 @@
     lost-column: 7/12;
 
     &__inner {
-      padding: 30px 20px;
+      padding: 30px 0px;
     }
   }
 }
@@ -65,7 +64,7 @@
     lost-column: 2/3;
 
     &__inner {
-      padding: 40px 35px;
+      padding: 40px 0px;
     }
   }
 }

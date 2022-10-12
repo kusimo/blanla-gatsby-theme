@@ -3,4 +3,11 @@
 
 .layout {
     lost-center: $layout-width;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 100vh;
+    @media screen and (min-width:685px) {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }  
 }

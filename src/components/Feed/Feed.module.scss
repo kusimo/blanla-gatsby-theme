@@ -2,8 +2,22 @@
 @import '../../assets/scss/mixins';
 
 .feed {
+  @media screen and (min-width:1200px) {
+    display:flex;
+    flex-wrap: wrap;
+  }
   &__item {
     @include margin-bottom(1.25);
+    box-shadow: 1px 1px 5px $color-gray-bg;
+    overflow: hidden;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    @media screen and (min-width:1200px) {
+      min-width: 280px;
+      max-width:280px;
+      margin-right: 16px;
+    }
 
     &:last-child {
       @include margin-bottom(.5);

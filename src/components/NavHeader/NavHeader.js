@@ -20,6 +20,14 @@ function NavHeader() {
       onUnpin={() => {
         setMenuShown(false);
       }}
+      style={{
+        maxWidth: '1140px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      }}
+      wrapperStyle={{
+        boxShadow: '0 4px 15px #f7f7f7'
+      }}
     >
       <div className={cx({ header: true, 'no-shadow': menuShown })}>
         <DisplayIf desktop className={styles['header__left']}>
