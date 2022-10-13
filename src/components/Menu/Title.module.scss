@@ -4,16 +4,30 @@
 .siteTitle {
     font-size: 18px;
     margin:0;
+    position: relative;
+    line-height: unset;
     a {
         font-size: $typographic-base-font-size;
         color: $typographic-base-font-color;
-        font-weight: bold;
+        font-weight: 900;
         border: 0;
         user-select: none;
         padding: 0.25rem;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
         text-transform: uppercase;
+        
+        &::after {
+            content: "";
+            width: 6%;
+            height: 61px;
+            background: #d5f5e4;
+            position: absolute;
+            left: -2px;
+            z-index: -1;
+            top: -15px;
+            transform: skewX(10deg);
+        }
 
         &:hover {
           color: $color-primary;
