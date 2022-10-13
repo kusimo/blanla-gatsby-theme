@@ -21,8 +21,10 @@
         line-height: 32px;
         border: 1px solid $color-gray-border;
         text-decoration: none;
-        border-radius: 3px;
+        border-radius: 9px;
         color: $color-base;
+        background: #e8e8e8;
+        font-size: $typographic-small-font-size;
 
         &:hover,
         &:focus {

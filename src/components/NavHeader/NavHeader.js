@@ -26,7 +26,8 @@ function NavHeader() {
         marginRight: 'auto',
       }}
       wrapperStyle={{
-        boxShadow: '0 4px 15px #f7f7f7'
+        boxShadow: '0 4px 15px #f7f7f7',
+        backgroundColor: '#FFF'
       }}
     >
       <div className={cx({ header: true, 'no-shadow': menuShown })}>

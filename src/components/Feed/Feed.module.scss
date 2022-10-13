@@ -5,6 +5,7 @@
   @media screen and (min-width:1200px) {
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   &__item {
     @include margin-bottom(1.25);
@@ -14,9 +15,9 @@
     padding: 2rem;
     border-radius: 1rem;
     @media screen and (min-width:1200px) {
-      min-width: 280px;
-      max-width:280px;
-      margin-right: 16px;
+      min-width: 290px;
+      max-width:290px;
+     
     }
 
     &:last-child {
