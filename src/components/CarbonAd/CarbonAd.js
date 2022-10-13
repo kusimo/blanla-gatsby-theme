@@ -26,8 +26,10 @@ class CarbonAd extends React.PureComponent<Props> {
     if (container && this.shouldDisplay()) {
       const script = document.createElement('script');
       script.id = '_carbonads_js';
+      script.setAttribute('crossorigin', 'anonymous');
       script.async = true;
-      script.src = '//cdn.carbonads.com/carbon.js?serve=CK7I4237&placement=victorzhoucom';
+     // script.src = '//cdn.carbonads.com/carbon.js?serve=CK7I4237&placement=victorzhoucom';
+      script.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6807674482555686';
       container.appendChild(script);
     }
   }
