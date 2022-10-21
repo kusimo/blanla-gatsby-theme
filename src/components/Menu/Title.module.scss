@@ -17,21 +17,36 @@
         margin-right: 0.5rem;
         text-transform: uppercase;
         
-        &::after {
+        &::after,  &::before {
             content: "";
             width: 6%;
             height: 61px;
-            background: #d5f5e4;
+            background: $color-secondary;
             position: absolute;
             left: -2px;
             z-index: -1;
             top: -15px;
             transform: skewX(10deg);
+            transition: width 2s, height 2s, background-color .1s, transform .2s;
+            transition-duration: .3s;
+        }
+        &::before {
+          background: $color-secondary;
+          background: #d5f5e4;
+          height: 0;
         }
 
         &:hover {
           color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          &::after {
+            background: $color-secondary;
+            height: 0;
+          }
+          &::before {
+            background: #d5f5e4;
+            height: 61px;
+            z-index: 1;
+          }
         }
 
       }

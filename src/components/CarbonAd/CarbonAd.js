@@ -29,7 +29,7 @@ class CarbonAd extends React.PureComponent<Props> {
       script.setAttribute('crossorigin', 'anonymous');
       script.async = true;
      // script.src = '//cdn.carbonads.com/carbon.js?serve=CK7I4237&placement=victorzhoucom';
-      script.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6807674482555686';
+      script.src = `//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.ADWORD_CLIENT}`;
       container.appendChild(script);
     }
   }
@@ -39,7 +39,7 @@ class CarbonAd extends React.PureComponent<Props> {
     return (
       (!largeOnly || (largeOnly && window.innerWidth >= LARGE_THRESHOLD)) &&
       (!smallOnly || (smallOnly && window.innerWidth <= SMALL_THRESHOLD)) &&
-      window.location.hostname !== 'localhost'
+      window.location.hostname !== 'localhostu'
     );
   }
 

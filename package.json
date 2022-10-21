@@ -8,6 +8,8 @@
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
     "deploy": "./server/scripts/deploy.sh",
+    "deploy-live": "gatsby clean && gatsby build && node deploy",
+    "deploy-node": "node deploy",
     "flow": "flow",
     "format": "prettier --write --ignore-path .gitignore '**/**.js'",
     "format-check": "prettier --list-different --ignore-path .gitignore '**/**.js'",
@@ -29,6 +31,7 @@
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
     "codecov": "^3.8.0",
+    "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "gatsby": "^2.24.91",
     "gatsby-link": "^2.4.16",
@@ -71,7 +74,8 @@
     "react-share": "^4.3.1",
     "react-toggle": "^4.1.1",
     "rehype-react": "^5.0.1",
-    "request-promise": "^4.2.6"
+    "request-promise": "^4.2.6",
+    "ssh2-sftp-client": "^9.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -80,6 +84,7 @@
     "@babel/plugin-transform-flow-strip-types": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
+    "@types/ssh2-sftp-client": "^7.1.0",
     "autoprefixer": "^9.8.6",
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^10.1.0",

@@ -25,10 +25,7 @@ function NavHeader() {
         marginLeft: 'auto',
         marginRight: 'auto',
       }}
-      wrapperStyle={{
-        boxShadow: '0 4px 15px #f7f7f7',
-        backgroundColor: '#FFF'
-      }}
+      
     >
       <div className={cx({ header: true, 'no-shadow': menuShown })}>
         <DisplayIf desktop className={styles['header__left']}>
