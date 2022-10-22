@@ -5,6 +5,7 @@ template: "post"
 isML: true
 slug: "/create-faq-in-liquid/"
 img: "https://localhost/gatsby-blanla/php-backend/media/16/gold-price.jpeg"
+featuredImage: "./media-link/16/gold-price.jpeg"
 category: "Python"
 tags:
  - "Shopify"

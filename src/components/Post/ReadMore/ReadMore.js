@@ -43,12 +43,15 @@ const ReadMoreLink = ({
         logEvent('ReadMore', 'click');
       }}
     >
-      <GatsbyImage
+      {featuredImage !== null
+      ? <GatsbyImage
       alt={title}
       className={styles['readmore-thumbnail']}
       placeholder="tracedSVG"
       image={ getImage(featuredImage)}
       />
+      : ''
+      }
     </Link>
     <div className={styles['body']}>
       <Link

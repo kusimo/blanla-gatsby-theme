@@ -46,7 +46,8 @@ const Content = ({
 
   <article className={styles['content']}>
     <header className={`${featuredImage === null ? styles['content__header-no-image'] : styles['content__has-featured-image']}`}>
-     <GatsbyImage
+      {featuredImage === null ? ''
+      : <GatsbyImage
         alt={title}
         className={styles['content__featured-image']}
         placeholder="tracedSVG"
@@ -54,6 +55,7 @@ const Content = ({
         loading="eager"
         critical="true"
       />
+      }
       <div className={styles['content__header-content']}>
         <h1 className={`${styles['content__title']} ${subtitle ? '' : styles['no-subtitle']}`}>
           {title}

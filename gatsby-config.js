@@ -149,8 +149,16 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sharp',
       options: {
-        defaultQuality: 90,
-      },
+        defaults: {
+            formats: [
+                'auto',
+                'webp',
+                'avif',
+            ],
+            quality: 90,
+            placeholder: 'tracedSVG',
+        },
+    },
     },
     {
       resolve: 'gatsby-plugin-google-gtag',
