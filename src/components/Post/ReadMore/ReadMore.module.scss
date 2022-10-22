@@ -2,14 +2,13 @@
 @import '../../../assets/scss/mixins';
 
 .readmore {
-  @include margin-top(1);
-  @include margin-bottom(1);
+  @include margin-top(2);
+  @include margin-bottom(2);
 
   &-title {
     margin: 0;
     font-size: $typographic-base-font-size * 1;
     font-weight: bold;
-    text-align: center;
   }
 
   &-pagination {
@@ -19,14 +18,18 @@
   &-links {
     display: flex;
     flex-direction: column;
+    margin: 22px 0;
 
     > div {
       flex: 1;
       background-color: $color-gray-bg;
-      text-align: center;
-      padding: 10px;
-      margin: 5px;
-      border-radius: 4px;
+      border-radius: 9px;
+      margin-bottom: 22px;
+      overflow: hidden;
+      
+      .body {
+        padding: 22px;
+      }
 
       p {
         margin: 0;
@@ -34,19 +37,20 @@
         @include line-height(0.9);
       }
     }
+    
   }
 }
 
 .readmore-thumbnail {
   background-color: var(--background-color);
   border-radius: 4px;
-  height: 160px;
-  object-fit: cover;
-  width: 100%;
 }
 
 @include breakpoint-sm {
   .readmore-links {
     flex-direction: row;
+    >div { margin: 0}
+    > div:first-of-type { margin-right: 22px;}
+    
   }
 }

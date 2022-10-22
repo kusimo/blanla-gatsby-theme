@@ -4,6 +4,8 @@ const path = require('path');
 const _ = require('lodash');
 const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
+const createBlogsPages = require('./pagination/create-blogs-pages.js');
+const { act } = require('react-test-renderer');
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -39,11 +41,6 @@ const createPages = async ({ graphql, actions }) => {
     component: path.resolve('./src/templates/archive-template.js'),
   });
 
-  // More Posts
-  createPage({
-    path: '/posts/',
-    component: path.resolve('./src/templates/guest-posts-template.js'),
-  });
 
   // Posts and pages from markdown
   const result = await graphql(`
@@ -95,6 +92,7 @@ const createPages = async ({ graphql, actions }) => {
   // Feeds
   await createTagsPages(graphql, actions);
   await createPostsPages(graphql, actions);
+  await createBlogsPages(graphql, actions);
 };
 
 module.exports = createPages;

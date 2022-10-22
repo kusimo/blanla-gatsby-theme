@@ -2,6 +2,8 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+
 import { logEvent } from '../../../utils/log';
 import styles from './ReadMore.module.scss';
 
@@ -27,10 +29,11 @@ type Props = {|
   +nextPost: PostType,
 |};
 
+
 const ReadMoreLink = ({
   post: {
     fields: { dateFormatted, dateModifiedFormatted },
-    frontmatter: { description, img, slug, title },
+    frontmatter: { description, img, featuredImage, slug, title },
   },
 }: LinkProps) => (
   <div>
@@ -40,20 +43,27 @@ const ReadMoreLink = ({
         logEvent('ReadMore', 'click');
       }}
     >
-      <img className={styles['readmore-thumbnail']} loading="lazy" src={img} alt={title} />
+      <GatsbyImage
+      alt={title}
+      className={styles['readmore-thumbnail']}
+      placeholder="tracedSVG"
+      image={ getImage(featuredImage)}
+      />
     </Link>
-    <Link
-      to={slug}
-      onClick={() => {
-        logEvent('ReadMore', 'click');
-      }}
-    >
-      <b>{title}</b>
-    </Link>
-    <p>
-      <b>{dateModifiedFormatted || dateFormatted}</b>
-    </p>
-    <p>{description}</p>
+    <div className={styles['body']}>
+      <Link
+        to={slug}
+        onClick={() => {
+          logEvent('ReadMore', 'click');
+        }}
+      >
+        <b>{title}</b>
+      </Link>
+      <p>
+        <b>{dateModifiedFormatted || dateFormatted}</b>
+      </p>
+      <p>{description}</p>
+    </div>
   </div>
 );
 
@@ -76,6 +86,14 @@ export const fragment = graphql`
     frontmatter {
       description
       img
+      featuredImage {
+        childImageSharp {
+          gatsbyImageData
+          fluid (maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       slug
       title
     }

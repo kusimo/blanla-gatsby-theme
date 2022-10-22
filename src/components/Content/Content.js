@@ -45,7 +45,7 @@ const Content = ({
 }: Props) => (
   <article className={styles['content']}>
       <GatsbyImage
-      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+      alt={title}
       className="featured-image"
       placeholder="tracedSVG"
       image={ getImage(featuredImage)}

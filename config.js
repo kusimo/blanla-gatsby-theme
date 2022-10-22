@@ -9,8 +9,8 @@ module.exports = {
   googleAnalyticsId: 'UA-58664433-1',
   menu: [
     {
-      label: 'Home',
-      path: '/',
+      label: 'Blog',
+      path: '/blog/',
     },
     {
       label: 'Tags',
