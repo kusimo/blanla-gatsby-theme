@@ -37,7 +37,7 @@ const createPages = async ({ graphql, actions }) => {
 
   // Archive
   createPage({
-    path: '/archive/',
+    path: '/',
     component: path.resolve('./src/templates/archive-template.js'),
   });
 
