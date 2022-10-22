@@ -3,15 +3,15 @@ title: How I Became a Programmer
 date: "2019-03-14T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/how-i-became-a-programmer/"
+slug: "/how-i-became-a-programmer/"
 img: "https://victorzhou.com/media/laptop-code.jpg"
 category: "Programming"
 tags:
   - "Programming"
   - "Game Development"
 description: My unlikely origin story.
-prev: "/blog/first-50-days-of-blogging/"
-next: "/blog/properly-size-images/"
+prev: "/first-50-days-of-blogging/"
+next: "/properly-size-images/"
 popularity: 5
 ---
 

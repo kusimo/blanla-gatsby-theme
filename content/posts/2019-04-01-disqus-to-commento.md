@@ -4,7 +4,7 @@ date: "2019-04-01T12:00:00.000Z"
 dateModified: "2019-06-14T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/replacing-disqus/"
+slug: "/replacing-disqus/"
 img: "https://victorzhou.com/media/commento-post/migration.png"
 category: "Web Development"
 tags:
@@ -12,8 +12,8 @@ tags:
   - "Performance"
   - "Best Practices"
 description: How switching from Disqus to Commento reduced my page weight by 90%.
-prev: "/blog/properly-size-images/"
-next: "/blog/mailchimp-to-sendy/"
+prev: "/properly-size-images/"
+next: "/mailchimp-to-sendy/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1112797222486401024
 discussLinkHN: https://news.ycombinator.com/item?id=19555665
 discussLinkReddit: https://www.reddit.com/r/programming/comments/b9022a/switching_off_of_disqus_reduced_my_page_weight_by/

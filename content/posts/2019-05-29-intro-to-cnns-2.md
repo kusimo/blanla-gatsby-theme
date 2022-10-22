@@ -5,7 +5,7 @@ dateModified: "2020-11-10T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/blog/intro-to-cnns-part-2/"
+slug: "/intro-to-cnns-part-2/"
 img: "https://victorzhou.com/media/cnn-post/maxpool-backprop.png"
 isML: true
 category: "Machine Learning"
@@ -16,8 +16,8 @@ tags:
   - "Python"
   - "For Beginners"
 description: A simple walkthrough of deriving backpropagation for CNNs and implementing it from scratch in Python.
-prev: "/blog/keras-cnn-tutorial/"
-next: "/blog/intro-to-random-forests/"
+prev: "/keras-cnn-tutorial/"
+next: "/intro-to-random-forests/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1133752584383205377
 discussLinkHN: https://news.ycombinator.com/item?id=20064900
 popularity: 22

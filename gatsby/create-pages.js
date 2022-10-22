@@ -3,13 +3,14 @@
 const path = require('path');
 const _ = require('lodash');
 const createTagsPages = require('./pagination/create-tags-pages.js');
-const createPostsPages = require('./pagination/create-posts-pages.js');
+//const createPostsPages = require('./pagination/create-posts-pages.js');
 const createBlogsPages = require('./pagination/create-blogs-pages.js');
 const { act } = require('react-test-renderer');
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
+  /*
   // Subscriber Thank You
   createPage({
     path: '/subscriber-thank-you/',
@@ -29,6 +30,7 @@ const createPages = async ({ graphql, actions }) => {
     context: { updateSubscription: true },
   });
 
+  */
   // Tags list
   createPage({
     path: '/tags/',
@@ -91,7 +93,7 @@ const createPages = async ({ graphql, actions }) => {
 
   // Feeds
   await createTagsPages(graphql, actions);
-  await createPostsPages(graphql, actions);
+  //await createPostsPages(graphql, actions);
   await createBlogsPages(graphql, actions);
 };
 

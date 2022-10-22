@@ -5,7 +5,7 @@ dateModified: "2022-09-20T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/blog/intro-to-rnns/"
+slug: "/intro-to-rnns/"
 img: "https://victorzhou.com/media/rnn-post/bptt.png"
 isML: true
 category: "Machine Learning"
@@ -16,8 +16,8 @@ tags:
   - "Python"
   - "For Beginners"
 description: A simple walkthrough of what RNNs are, how they work, and how to build one from scratch in Python.
-prev: "/blog/intro-to-cnns-part-1/"
-next: "/blog/intro-to-random-forests/"
+prev: "/intro-to-cnns-part-1/"
+next: "/intro-to-random-forests/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1154055678518054912?s=20
 discussLinkHN: https://news.ycombinator.com/item?id=20524543
 popularity: 30
@@ -270,7 +270,7 @@ out, h = rnn.forward(inputs)
 probs = softmax(out)
 print(probs) # [[0.50000095], [0.49999905]]
 ```
-<figcaption>If you need a refresher on Softmax, read my <a href="/blog/softmax/">quick explanation of Softmax</a>.</figcaption>
+<figcaption>If you need a refresher on Softmax, read my <a href="/softmax/">quick explanation of Softmax</a>.</figcaption>
 
 Our RNN works, but it's not very useful yet. Let's change that...
 

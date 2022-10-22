@@ -4,7 +4,7 @@ date: "2019-06-14T12:00:00.000Z"
 dateModified: "2022-09-20T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/keras-neural-network-tutorial/"
+slug: "/keras-neural-network-tutorial/"
 img: "https://victorzhou.com/media/keras-posts/keras-nn.png"
 featuredImage: "./media-link/keras-posts/keras-logo.png"
 isML: true
@@ -16,8 +16,8 @@ tags:
   - "Neural Networks"
   - "For Beginners"
 description: A beginner-friendly guide on using Keras to implement a simple Neural Network in Python.
-prev: "/blog/keras-rnn-tutorial/"
-next: "/blog/keras-cnn-tutorial/"
+prev: "/keras-rnn-tutorial/"
+next: "/keras-cnn-tutorial/"
 popularity: 40
 ---
 

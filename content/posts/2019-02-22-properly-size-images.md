@@ -3,7 +3,7 @@ title: Properly Size Images for the Web
 date: "2019-02-22T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/properly-size-images/"
+slug: "/properly-size-images/"
 img: "https://victorzhou.com/media/image-sizing-post/map-big.jpg"
 category: "Web Development"
 tags:
@@ -11,8 +11,8 @@ tags:
   - "Best Practices"
   - "Performance"
 description: "Even weather.com is doing this wrong - are you?"
-prev: "/blog/lazy-loading-images/"
-next: "/blog/minify-svgs/"
+prev: "/lazy-loading-images/"
+next: "/minify-svgs/"
 twitterEmbed: true
 discussLinkTwitter: https://twitter.com/css/status/1100912724295454721
 popularity: 8

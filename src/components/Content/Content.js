@@ -20,7 +20,7 @@ type Props = {|
   +htmlAst: Object,
   +title: string,
   +img: string,
-  +featuredImage: string,
+  +featuredImage: Object,
   +subtitle: ?string,
   +dateFormatted: string,
   +dateModifiedFormatted: ?string,
@@ -43,33 +43,42 @@ const Content = ({
   guestCoAuthor,
   guestAuthorLink,
 }: Props) => (
-  <article className={styles['content']}>
-      <GatsbyImage
-      alt={title}
-      className="featured-image"
-      placeholder="tracedSVG"
-      image={ getImage(featuredImage)}
-      loading="eager"
-      critical="true"
-      />
 
-    <h1 className={`${styles['content__title']} ${subtitle ? '' : styles['no-subtitle']}`}>
-      {title}
-    </h1>
-    {subtitle && <h2 className={styles['content__subtitle']}>{subtitle}</h2>}
-    <div className={styles['content__date']}>
-      <ContentDate dateFormatted={dateFormatted} dateModifiedFormatted={dateModifiedFormatted} />
-    </div>
-    {(!!guestAuthor || !!guestCoAuthor) && (
-      <div className={styles['content__guest-author']}>
-        <GuestAuthor author={guestAuthor} coAuthor={guestCoAuthor} link={guestAuthorLink} />
+  <article className={styles['content']}>
+    <header className={`${featuredImage === null ? styles['content__header-no-image'] : styles['content__has-featured-image']}`}>
+     <GatsbyImage
+        alt={title}
+        className={styles['content__featured-image']}
+        placeholder="tracedSVG"
+        image={ getImage(featuredImage)}
+        loading="eager"
+        critical="true"
+      />
+      <div className={styles['content__header-content']}>
+        <h1 className={`${styles['content__title']} ${subtitle ? '' : styles['no-subtitle']}`}>
+          {title}
+        </h1>
+        {subtitle && <h2 className={styles['content__subtitle']}>{subtitle}</h2>}
+        <div className={styles['content__date']}>
+          <ContentDate dateFormatted={dateFormatted} dateModifiedFormatted={dateModifiedFormatted} />
+        </div>
+        {(!!guestAuthor || !!guestCoAuthor) && (
+          <div className={styles['content__guest-author']}>
+            <GuestAuthor author={guestAuthor} coAuthor={guestCoAuthor} link={guestAuthorLink} />
+          </div>
+        )}
       </div>
-    )}
+      
+    </header>
+     
     <div className={styles['content__spacer']} />
     <div className={styles['content__body']}>{renderAst(htmlAst)}</div>
     {footer}
   </article>
+
 );
+
+
 
 export const fragment = graphql`
   fragment ContentFragment on MarkdownRemark {

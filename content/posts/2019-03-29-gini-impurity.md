@@ -4,7 +4,7 @@ date: "2019-03-29T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/blog/gini-impurity/"
+slug: "/gini-impurity/"
 img: "https://victorzhou.com/media/gini-impurity-post/dataset-imperfect-split.png"
 isML: true
 category: "Machine Learning"
@@ -14,8 +14,8 @@ tags:
   - "Decision Trees"
   - "Random Forests"
 description: What Gini Impurity is (with examples) and how it's used to train Decision Trees.
-prev: "/blog/intro-to-neural-networks/"
-next: "/blog/intro-to-random-forests/"
+prev: "/intro-to-neural-networks/"
+next: "/intro-to-random-forests/"
 popularity: 44
 ---
 

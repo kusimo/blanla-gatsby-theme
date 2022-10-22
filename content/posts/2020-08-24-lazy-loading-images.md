@@ -4,7 +4,7 @@ date: "2020-08-24T12:00:00.000Z"
 template: "post"
 draft: false
 isWeb: true
-slug: "/blog/lazy-loading-images/"
+slug: "/lazy-loading-images/"
 img: "https://victorzhou.com/media/lazy-load-post/webstack.png"
 category: "Web Development"
 tags:
@@ -12,8 +12,8 @@ tags:
   - "Performance"
   - "Best Practices"
 description: "Yes, you. Your site should probably be doing this."
-prev: "/blog/minify-svgs/"
-next: "/blog/properly-size-images/"
+prev: "/minify-svgs/"
+next: "/properly-size-images/"
 ---
 
 If you're anything like me, you've been putting off lazy loading images on your website(s) for a long time. You've always known it was possible (recommended, even), but over time you've gotten good at coming up with "reasons" not to do it:

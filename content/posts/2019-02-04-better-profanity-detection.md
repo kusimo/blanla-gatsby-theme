@@ -3,7 +3,7 @@ title: Building a Better Profanity Detection Library with scikit-learn
 date: "2019-02-04T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/better-profanity-detection-with-scikit-learn/"
+slug: "/better-profanity-detection-with-scikit-learn/"
 img: "https://victorzhou.com/media/xkcd-290.png"
 isML: true
 category: "Machine Learning"
@@ -14,8 +14,8 @@ tags:
   - "scikit-learn"
 description: "Why existing libraries are uninspiring and how I built a better one."
 canonical: https://medium.com/@victorczhou/building-a-better-profanity-detection-library-with-scikit-learn-3638b2f2c4c2
-prev: "/blog/intro-to-neural-networks/"
-next: "/blog/intro-to-random-forests/"
+prev: "/intro-to-neural-networks/"
+next: "/intro-to-random-forests/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1092487435546705921
 discussLinkHN: https://news.ycombinator.com/item?id=19086530
 discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/an2o7t/building_a_better_profanity_detection_library/

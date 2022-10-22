@@ -3,7 +3,7 @@ title: "Hello world!"
 date: "2022-10-08T13:34:53+01:00"
 template: "post"
 isML: true
-slug: "/blog/hello-world/"
+slug: "/hello-world/"
 img: "https://localhost/gatsby-blanla/php-backend/media/20221007_125544-scaled-1.jpg"
 category: "Python"
 tags:
@@ -12,8 +12,8 @@ tags:
  - "Python"
  - "React"
 description: This is my first blog. Make it count.
-prev: "/blog/keras-cnn-tutorial/"
-next: "/blog/intro-to-rnns/"
+prev: "/keras-cnn-tutorial/"
+next: "/intro-to-rnns/"
 ---
 ## This is my first blog
 So exited to let you know this is my first blog here

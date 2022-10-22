@@ -3,7 +3,7 @@ title: Can You Find The Bug in This Code?
 date: "2019-02-09T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/a-javascript-bug-i-had-once/"
+slug: "/a-javascript-bug-i-had-once/"
 img: "https://victorzhou.com/media/laptop-code.jpg"
 category: "Javascript"
 tags:
@@ -11,8 +11,8 @@ tags:
   - "Debugging"
   - "Programming"
 description: "This is an actual bug I had once."
-prev: "/blog/properly-size-images/"
-next: "/blog/why-you-should-use-webpack/"
+prev: "/properly-size-images/"
+next: "/why-you-should-use-webpack/"
 discussLinkHN: https://news.ycombinator.com/item?id=19135552
 popularity: 5
 ---

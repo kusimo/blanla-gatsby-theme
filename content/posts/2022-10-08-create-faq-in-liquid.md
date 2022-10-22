@@ -3,14 +3,14 @@ title: "Create FAQ in Liquid"
 date: "2022-10-08T18:30:24+01:00"
 template: "post"
 isML: true
-slug: "/blog/create-faq-in-liquid/"
+slug: "/create-faq-in-liquid/"
 img: "https://localhost/gatsby-blanla/php-backend/media/16/gold-price.jpeg"
 category: "Python"
 tags:
  - "Shopify"
 description: Learn how to create a FAQ with liquid
-prev: "/blog/keras-cnn-tutorial/"
-next: "/blog/intro-to-rnns/"
+prev: "/keras-cnn-tutorial/"
+next: "/intro-to-rnns/"
 ---
 ## This is the tips how how to easily create a stunning looking FAQ in Shopify.
 

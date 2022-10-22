@@ -6,8 +6,51 @@
   padding: 0 $layout-mobile-padding;
   margin: 0 auto;
 
-  &__featured-image {
+  &__has-featured-image {
+    padding-top: 120px;
     position: relative;
+    margin-bottom: 1rem;
+    @media(min-width: 768px) {
+      padding-top: 250px;
+    }
+  }
+  &__header-no-image {
+    padding-top: 30px;
+    @media(min-width: 768px) {
+      padding-top: 50px;
+    }
+  }
+
+  &__featured-image {
+    left: -50vw;
+    margin-left: 50%;
+    max-width: none;
+    position: absolute!important;
+    top: 0;
+    width: 100vw;
+    z-index: 0;
+    max-height: 180px;
+    @media(min-width: 768px) {
+      max-height: 350px;
+    }
+  }
+
+  &__header-content {
+    position: relative;
+    z-index: 2;
+    background-color: $color-white;
+    margin-left: -3rem;
+    padding-left: 3rem;
+    position: relative;
+    &::before {
+      background-color: $color-white;
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 3rem;
+    }
   }
 
   &__title, &__subtitle, &__date, &__guest-author {
@@ -19,7 +62,8 @@
     font-weight: 500;
     font-size: $typographic-base-font-size * 2;
     @include line-height(1.5);
-    @include margin-top(1);
+    margin-top: 0!important;
+    padding-top: 22px;
 
     &.no-subtitle {
       font-weight: 600;

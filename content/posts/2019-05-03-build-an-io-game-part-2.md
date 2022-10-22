@@ -4,7 +4,7 @@ date: "2019-05-03T12:00:00.000Z"
 dateModified: "2022-03-12T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/blog/build-an-io-game-part-2/"
+slug: "/build-an-io-game-part-2/"
 img: "https://victorzhou.com/media/io-game-post/screenshot.png"
 isWeb: true
 category: "Game Development"
@@ -15,8 +15,8 @@ tags:
   - "Node.js"
   - "For Beginners"
 description: A look into the backend server behind an .io game.
-prev: "/blog/why-you-should-use-webpack/"
-next: "/blog/how-i-became-a-programmer/"
+prev: "/why-you-should-use-webpack/"
+next: "/how-i-became-a-programmer/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1124325065326256128
 discussLinkReddit: https://www.reddit.com/r/gamedev/comments/i23pen/i_made_a_tutorial_series_on_on_building/
 popularity: 13

@@ -52,7 +52,7 @@ module.exports = async (graphql, actions) => {
 
   function createPostPage(i, sortByNew) {
     const pathFunc = sortByNew ? postBlogPath : topPostsPagePath;
-    const slugs = sortByNew ? newPostSlugs : postSlugs;
+    const slugs = sortByNew ? newPostSlugs : newPostSlugs;
     createPage({
       path: pathFunc(i + 1),
       component: path.resolve('./src/templates/index-template.js'),
