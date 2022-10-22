@@ -6,6 +6,7 @@ template: "post"
 draft: false
 slug: "/blog/keras-neural-network-tutorial/"
 img: "https://victorzhou.com/media/keras-posts/keras-nn.png"
+featuredImage: "./media-link/keras-posts/keras-logo.png"
 isML: true
 category: "Python"
 tags:
@@ -22,7 +23,7 @@ popularity: 40
 
 ![](./media-link/keras-posts/keras-logo.png)
 
-[Keras](https://keras.io/) is a simple-to-use but powerful deep learning library for Python. In this post, we'll see how easy it is to build a feedforward neural network and train it to solve a real problem with Keras.
+[Keras](https://keras.io/) is a very simple-to-use but powerful deep learning library for Python. In this post, we'll see how easy it is to build a feedforward neural network and train it to solve a real problem with Keras.
 
 This post is intended for **complete beginners to Keras** but does assume a **basic background knowledge of neural networks**. My [introduction to Neural Networks](/blog/intro-to-neural-networks/) covers everything you need to know (and more) for this post - read that first if necessary.
 

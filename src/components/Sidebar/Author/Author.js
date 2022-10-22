@@ -1,13 +1,22 @@
 import { Link, withPrefix } from 'gatsby';
 import React from 'react';
 
+import { StaticImage } from 'gatsby-plugin-image'
+
 import styles from './Author.module.scss';
 
 const Author = ({ author }) => (
   <div className={styles['author']}>
     <div className={styles['author__main-section']}>
       <Link to="/">
-        <img src={withPrefix(author.photo)} className={styles['author__photo']} alt={author.name} />
+        <StaticImage
+            alt={author.name}
+            src="../../Author/image/photo2.jpg"
+            width={75}
+            height={75}
+            className={styles['author__photo']}
+            loading="eager"
+          />
       </Link>
       <div className={styles['author__title']}>
         <h3>

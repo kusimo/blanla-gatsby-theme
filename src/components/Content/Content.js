@@ -8,6 +8,8 @@ import ContentDate from '../ContentDate';
 import GuestAuthor from '../GuestAuthor';
 import styles from './Content.module.scss';
 
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: { 'csrf-post-button': loadable(() => import('../CSRFPostButton')) },
@@ -17,6 +19,8 @@ const renderAst = new rehypeReact({
 type Props = {|
   +htmlAst: Object,
   +title: string,
+  +img: string,
+  +featuredImage: string,
   +subtitle: ?string,
   +dateFormatted: string,
   +dateModifiedFormatted: ?string,
@@ -29,6 +33,8 @@ type Props = {|
 const Content = ({
   htmlAst,
   title,
+  img,
+  featuredImage,
   subtitle,
   dateFormatted,
   dateModifiedFormatted,
@@ -38,6 +44,15 @@ const Content = ({
   guestAuthorLink,
 }: Props) => (
   <article className={styles['content']}>
+      <GatsbyImage
+      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+      className="featured-image"
+      placeholder="tracedSVG"
+      image={ getImage(featuredImage)}
+      loading="eager"
+      critical="true"
+      />
+
     <h1 className={`${styles['content__title']} ${subtitle ? '' : styles['no-subtitle']}`}>
       {title}
     </h1>

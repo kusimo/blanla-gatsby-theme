@@ -1,5 +1,6 @@
 import { graphql, Link, StaticQuery, withPrefix } from 'gatsby';
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image'
 
 import styles from './Author.module.scss';
 
@@ -10,11 +11,11 @@ export const PureAuthor = ({ author, showBio, showTwitter, small }) => {
     <div className={styles['author']}>
       <div className={styles['author__header']}>
         <Link to="/" className={styles['author__header-photo']}>
-          <img
-            src={withPrefix(author.photo)}
-            width={photoSize}
-            height={photoSize}
+          <StaticImage
             alt={author.name}
+            src="./image/photo2.jpg"
+            width={60}
+            height={60}
           />
         </Link>
         <div className={styles['author__header-right']}>

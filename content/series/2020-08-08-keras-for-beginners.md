@@ -18,13 +18,13 @@ tags:
   - "Neural Networks"
   - "For Beginners"
 img: "https://victorzhou.com/media/keras-posts/keras-logo.png"
-description: "A beginner-friendly series on using Keras to build, train, and evaluate Neural Networks in Python."
+featuredImage: "./media-link/keras-posts/keras-logo.png"
+description: "A beginner-friendly series on using Keras to build, train, and evaluate Neural Networks in Python!"
 descriptionLong: "A beginner-friendly series on using Keras to build, train, and evaluate Neural Networks in Python. Covers classic Neural Networks, Recurrent Neural Networks (RNNs), and Convolutional Neural Networks (CNNs)."
 ---
 
-![](./media-link/keras-posts/keras-logo.png)
 
-[Keras](https://keras.io/) is a simple-to-use but powerful deep learning library for Python. This 3-post series, written for beginners, provides a simple way for anyone to get started solving real machine learning problems. We’ll start with an introduction to **classic Neural Networks** for complete beginners before delving into two popular variants: **Recurrent Neural Networks** (RNNs) and **Convolutional Neural Networks** (CNNs).
+[Keras](https://keras.io/) is a so simple-to-use but powerful deep learning library for Python. This 3-post series, written for beginners, provides a simple way for anyone to get started solving real machine learning problems. We’ll start with an introduction to **classic Neural Networks** for complete beginners before delving into two popular variants: **Recurrent Neural Networks** (RNNs) and **Convolutional Neural Networks** (CNNs).
 
 For each of each these types of networks, we’ll:
 

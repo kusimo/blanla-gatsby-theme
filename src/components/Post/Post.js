@@ -43,6 +43,8 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
   const {
     tags,
     title,
+    img,
+    featuredImage,
     description,
     isML,
     isWeb,
@@ -63,6 +65,8 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
       <Content
         htmlAst={htmlAst}
         title={title}
+        img={img}
+        featuredImage={featuredImage}
         subtitle={hideDescription ? null : description}
         dateFormatted={dateFormatted}
         dateModifiedFormatted={dateModifiedFormatted}

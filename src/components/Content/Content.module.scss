@@ -6,6 +6,10 @@
   padding: 0 $layout-mobile-padding;
   margin: 0 auto;
 
+  &__featured-image {
+    position: relative;
+  }
+
   &__title, &__subtitle, &__date, &__guest-author {
     max-width: $layout-post-width;
     margin: 0 auto;

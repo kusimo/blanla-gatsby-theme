@@ -36,6 +36,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
     date,
     dateModified,
     img: imgUrl,
+    featuredImage,
     isSeries,
     isML,
     isWeb,
@@ -165,6 +166,11 @@ export const fragment = graphql`
             description
             descriptionLong
             img
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
             isSeries
             seriesSlugs
             tags
