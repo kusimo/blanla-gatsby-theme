@@ -327,9 +327,10 @@
     padding: 0;
 
     &__title {
-      font-size: $typographic-base-font-size * 2.5;
-      @include line-height(2);
+      font-size: $typographic-base-font-size * 4.2;
+      @include line-height(3.2);
       @include margin-top(1.5);
+      font-weight: 800;
 
       &.no-subtitle {
         font-size: $typographic-base-font-size * 3.125;
