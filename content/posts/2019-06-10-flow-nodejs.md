@@ -3,7 +3,7 @@ title: Using Flow to Type Check a Node.js Codebase
 date: "2019-06-10T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/using-flow-with-nodejs/"
+slug: "/blog/using-flow-with-nodejs/"
 img: "https://victorzhou.com/media/flow-post/flow-homepage.png"
 isWeb: true
 category: "Javascript"
@@ -12,8 +12,8 @@ tags:
   - "Node.js"
   - "Flow"
 description: Integrating the Flow static type checker with a Javascript backend.
-prev: "/dark-mode-gatsby/"
-next: "/why-static-type-check-javascript/"
+prev: "/blog/dark-mode-gatsby/"
+next: "/blog/why-static-type-check-javascript/"
 ---
 
 Javascript is **dynamically typed**, but tools like [Flow](https://flow.org/) allow you to add static type checking to improve the safety of your codebase.

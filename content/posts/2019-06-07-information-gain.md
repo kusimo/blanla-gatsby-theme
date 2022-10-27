@@ -5,7 +5,7 @@ dateModified: "2022-09-16T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/information-gain/"
+slug: "/blog/information-gain/"
 img: "https://victorzhou.com/media/gini-impurity-post/dataset-imperfect-split.png"
 isML: true
 category: "Machine Learning"
@@ -15,8 +15,8 @@ tags:
   - "Decision Trees"
   - "Random Forests"
 description: What Information Gain and Information Entropy are and how they're used to train Decision Trees.
-prev: "/gini-impurity/"
-next: "/intro-to-random-forests/"
+prev: "/blog/gini-impurity/"
+next: "/blog/intro-to-random-forests/"
 popularity: 57
 ---
 

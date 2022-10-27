@@ -6,7 +6,7 @@ template: "post"
 usesKatex: true
 draft: false
 twitterEmbed: true
-slug: "/git-aliases/"
+slug: "/blog/git-aliases/"
 img: "https://victorzhou.com/media/git-alias-post/git.jpg"
 category: "Programming"
 tags:
@@ -14,8 +14,8 @@ tags:
   - "Performance"
   - "For Beginners"
 description: I really dislike typing out git commands, even the short ones.
-prev: "/avoid-premature-optimization/"
-next: "/minify-svgs/"
+prev: "/blog/avoid-premature-optimization/"
+next: "/blog/minify-svgs/"
 popularity: 9
 ---
 

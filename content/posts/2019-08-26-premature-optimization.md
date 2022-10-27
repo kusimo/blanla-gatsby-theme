@@ -3,7 +3,7 @@ title: "Avoid Premature Optimization"
 date: "2019-08-26T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/avoid-premature-optimization/"
+slug: "/blog/avoid-premature-optimization/"
 img: "https://victorzhou.com/media/laptop-code-2.jpg"
 category: "Best Practices"
 tags:
@@ -11,8 +11,8 @@ tags:
   - "Performance"
   - "Javascript"
 description: How I fell into the trap of premature optimization, the root of all evil.
-prev: "/properly-size-images/"
-next: "/minify-svgs/"
+prev: "/blog/properly-size-images/"
+next: "/blog/minify-svgs/"
 popularity: 6
 ---
 

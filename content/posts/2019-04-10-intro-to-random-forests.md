@@ -5,7 +5,7 @@ dateModified: "2022-09-20T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/intro-to-random-forests/"
+slug: "/blog/intro-to-random-forests/"
 img: "https://victorzhou.com/media/random-forest-post/random-forest.png"
 isML: true
 category: "Machine Learning"
@@ -15,8 +15,8 @@ tags:
   - "Decision Trees"
   - "Random Forests"
 description: The definitive guide to Random Forests and Decision Trees.
-prev: "/intro-to-neural-networks/"
-next: "/gini-impurity/"
+prev: "/blog/intro-to-neural-networks/"
+next: "/blog/gini-impurity/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1116006217581772801
 discussLinkHN: https://news.ycombinator.com/item?id=19632052
 discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/bbneto/random_forests_for_complete_beginners/

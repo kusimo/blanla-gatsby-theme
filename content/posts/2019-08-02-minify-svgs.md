@@ -4,7 +4,7 @@ date: "2019-08-02T12:00:00.000Z"
 template: "post"
 draft: false
 isWeb: true
-slug: "/minify-svgs/"
+slug: "/blog/minify-svgs/"
 img: "https://victorzhou.com/media/laptop-code-2.jpg"
 category: "Web Development"
 tags:
@@ -12,8 +12,8 @@ tags:
   - "Best Practices"
   - "Performance"
 description: "How I optimize SVGs for this blog and why you probably should, too."
-prev: "/lazy-loading-images/"
-next: "/properly-size-images/"
+prev: "/blog/lazy-loading-images/"
+next: "/blog/properly-size-images/"
 discussLinkHN: https://news.ycombinator.com/item?id=20680559
 popularity: 19
 ---

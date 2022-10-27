@@ -4,15 +4,15 @@ date: "2019-07-02T12:00:00.000Z"
 dateModified: "2019-07-05T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/mailchimp-to-sendy/"
+slug: "/blog/mailchimp-to-sendy/"
 img: "https://victorzhou.com/media/sendy-post/sendy.png"
 category: "Blogging"
 tags:
   - "Blogging"
   - "Best Practices"
 description: Mailchimp was getting too expensive, so I moved this blog's newsletter to Sendy.
-prev: "/replacing-disqus/"
-next: "/first-50-days-of-blogging/"
+prev: "/blog/replacing-disqus/"
+next: "/blog/first-50-days-of-blogging/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1146091888077750272
 discussLinkHN: https://news.ycombinator.com/item?id=20345012
 popularity: 11

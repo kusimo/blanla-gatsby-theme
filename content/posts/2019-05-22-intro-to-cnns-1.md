@@ -5,7 +5,7 @@ dateModified: "2019-11-10T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/intro-to-cnns-part-1/"
+slug: "/blog/intro-to-cnns-part-1/"
 img: "https://victorzhou.com/media/cnn-post/cnn-dims-3.png"
 isML: true
 category: "Machine Learning"
@@ -16,8 +16,8 @@ tags:
   - "Python"
   - "For Beginners"
 description: A simple guide to what CNNs are, how they work, and how to build one from scratch in Python.
-prev: "/intro-to-cnns-part-2/"
-next: "/keras-cnn-tutorial/"
+prev: "/blog/intro-to-cnns-part-2/"
+next: "/blog/keras-cnn-tutorial/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1131212626019721217
 discussLinkHN: https://news.ycombinator.com/item?id=19981736
 discussLinkReddit: https://www.reddit.com/r/learnmachinelearning/comments/brq4dr/an_introduction_to_convolutional_neural_networks/

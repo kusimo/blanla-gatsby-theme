@@ -1,10 +1,12 @@
 ---
 title: "Hello world!"
 date: "2022-10-08T13:34:53+01:00"
+dateModified: "2022-10-27T20:53:09+01:00"
 template: "post"
 isML: true
 slug: "/hello-world/"
-img: "https://localhost/gatsby-blanla/php-backend/media/20221007_125544-scaled-1.jpg"
+img: "https://blanla.com/media/1/shutterstock_215948584-1.png"
+featuredImage: "./media-link/1/shutterstock_215948584-1.png"
 category: "Python"
 tags:
  - "Javascript"
@@ -12,8 +14,7 @@ tags:
  - "Python"
  - "React"
 description: This is my first blog. Make it count.
-prev: "/keras-cnn-tutorial/"
-next: "/intro-to-rnns/"
+next: "/create-faq-in-liquid/"
 ---
 ## This is my first blog
 So exited to let you know this is my first blog here
@@ -53,4 +54,4 @@ train_data = prepareData('./train')
 test_data = prepareData('./test')
 ```
   
-<br/>  
+    

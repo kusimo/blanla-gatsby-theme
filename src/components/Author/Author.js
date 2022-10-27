@@ -10,31 +10,19 @@ export const PureAuthor = ({ author, showBio, showTwitter, small }) => {
   return (
     <div className={styles['author']}>
       <div className={styles['author__header']}>
-        <Link to="/" className={styles['author__header-photo']}>
           <StaticImage
             alt={author.name}
             src="./image/photo2.jpg"
             width={60}
             height={60}
+            className={styles['author__header-photo']}
           />
-        </Link>
         <div className={styles['author__header-right']}>
-          <h4 className={styles['author__header-right-name']}>
-            <Link className={styles['author__header-right-name-link']} to="/" rel="author">
+          <h3 className={styles['author__header-right-name']}>
+            <Link className={styles['author__header-right-name-link']} to="/contact/" rel="author">
               {author.name}
             </Link>
-            {showTwitter && ' '}
-            {showTwitter && (
-              <a
-                style={{ fontWeight: 500 }}
-                href="https://twitter.com/abidemikusimo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @abidemikusimo
-              </a>
-            )}
-          </h4>
+          </h3>
           {showBio && (
             <p
               className={styles['author__header-right-bio']}

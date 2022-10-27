@@ -9,6 +9,6 @@
 
   .date-modified {
     font-weight: 500;
-    color: $typographic-light-font-color;
+    color: daken($typographic-base-font-color, .7);
   }
 }

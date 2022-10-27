@@ -3,14 +3,14 @@ title: "My First 6 Months of Blogging"
 date: "2019-08-04T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/6-months-of-blogging/"
+slug: "/blog/6-months-of-blogging/"
 img: "https://victorzhou.com/media/6-months-post/organic.png"
 category: "Blogging"
 tags:
   - "Blogging"
 description: A recap, by the numbers, of the first half of my first year of blogging.
-prev: "/first-50-days-of-blogging/"
-next: "/mailchimp-to-sendy/"
+prev: "/blog/first-50-days-of-blogging/"
+next: "/blog/mailchimp-to-sendy/"
 ---
 
 Today is my 6 month anniversary of starting this blog! 🎉
@@ -51,11 +51,11 @@ My top 5 posts by pageviews so far are:
 
 | Page | Pageviews |
 | ---- | --------- |
-| <a class="no-underline" href="/intro-to-neural-networks/">/blog/intro-to-neural-networks/</a> | 71,431 |
-| <a class="no-underline" href="/intro-to-random-forests/">/blog/intro-to-random-forests/</a> | 33,579 |
-| <a class="no-underline" href="/intro-to-cnns-part-1/">/blog/intro-to-cnns-part-1/</a> | 25,148 |
-| <a class="no-underline" href="/intro-to-rnns/">/blog/intro-to-rnns/</a> | 14,457 |
-| <a class="no-underline" href="/build-an-io-game-part-1/">/blog/build-an-io-game-part-1/</a> | 13,215 |
+| <a class="no-underline" href="/blog/intro-to-neural-networks/">/blog/intro-to-neural-networks/</a> | 71,431 |
+| <a class="no-underline" href="/blog/intro-to-random-forests/">/blog/intro-to-random-forests/</a> | 33,579 |
+| <a class="no-underline" href="/blog/intro-to-cnns-part-1/">/blog/intro-to-cnns-part-1/</a> | 25,148 |
+| <a class="no-underline" href="/blog/intro-to-rnns/">/blog/intro-to-rnns/</a> | 14,457 |
+| <a class="no-underline" href="/blog/build-an-io-game-part-1/">/blog/build-an-io-game-part-1/</a> | 13,215 |
 
 The top 5 consist of 4 Machine Learning posts, each of which got popular on [Hacker News](https://news.ycombinator.com/) shortly after being published. The 5th is a dark horse: my [guide to Building Multiplayer (.io) Web Games](/blog/build-an-io-game-part-1/). Most of the traffic to that post has been organic - aside from a [podcast](/blog/creating-and-selling-io-games/) I did on that subject, there wasn't significant attention for that post when it came out.
 

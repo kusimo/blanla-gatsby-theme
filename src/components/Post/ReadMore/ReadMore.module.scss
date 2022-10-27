@@ -11,6 +11,8 @@
     font-weight: bold;
   }
 
+  &-no-post { display: none;}
+
   &-pagination {
     margin: 0;
   }
@@ -35,6 +37,11 @@
         margin: 0;
         font-size: $typographic-base-font-size * 0.9;
         @include line-height(0.9);
+      }
+
+      .description {
+        font-size: 16px;
+        color: var( --color-black)
       }
     }
     

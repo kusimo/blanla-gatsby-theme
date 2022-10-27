@@ -22,36 +22,42 @@
     }
 
     button {
-      color: white; // don't invert
+      color: var(--color-white); // don't invert
       width: 100%;
+      text-transform: uppercase;
+      font-weight: 900;
     }
 
     button.facebook {
-      background-color: $color-facebook;
+      background-color: darken($_color-base, 3%);
+      border-left: 4px solid $color-facebook;
 
       &:hover {
-        background-color: darken($color-facebook, 10%);
+        background-color: $color-facebook;
       }
     }
 
     button.twitter {
-      background-color: $color-twitter;
+      background-color: darken($_color-base, 6%);
+      border-left: 4px solid $color-twitter;
 
       &:hover {
-        background-color: darken($color-twitter, 10%);
+        background-color: darken($color-twitter, 1%);
       }
     }
 
     button.linkedin {
-      background-color: $color-linkedin;
+      background-color: darken($_color-base, 9%);
+      border-left: 4px solid $color-linkedin;
 
       &:hover {
-        background-color: darken($color-linkedin, 10%);
+        background-color: darken($color-linkedin, 1%);
       }
     }
 
     button.reddit {
-      background-color: $color-reddit;
+      background-color: darken($_color-base, 12%);
+      border-left: 4px solid $color-reddit;
 
       &:hover {
         background-color: darken($color-reddit, 10%);

@@ -3,7 +3,7 @@ title: A Simple Explanation of the Bag-of-Words Model
 date: "2019-11-30T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/bag-of-words/"
+slug: "/blog/bag-of-words/"
 img: "https://victorzhou.com/media/laptop-code.jpg"
 isML: true
 category: "Machine Learning"
@@ -13,8 +13,8 @@ tags:
   - "Natural Language Processing"
   - "Python"
 description: A quick, easy introduction to the Bag-of-Words model and how to implement it in Python.
-prev: "/softmax/"
-next: "/intro-to-rnns/"
+prev: "/blog/softmax/"
+next: "/blog/intro-to-rnns/"
 ---
 
 The **bag-of-words** (BOW) model is a representation that turns arbitrary text into **fixed-length vectors** by counting how many times each word appears. This process is often referred to as **vectorization**.

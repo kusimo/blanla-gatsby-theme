@@ -3,14 +3,14 @@ title: My First 50 Days of Blogging
 date: "2019-03-25T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/first-50-days-of-blogging/"
+slug: "/blog/first-50-days-of-blogging/"
 img: "https://victorzhou.com/media/first-50-days-post/pageviews.png"
 category: "Blogging"
 tags:
   - "Blogging"
 description: Why I started blogging, how it's going, and where I hope it goes.
-prev: "/how-i-became-a-programmer/"
-next: "/6-months-of-blogging/"
+prev: "/blog/how-i-became-a-programmer/"
+next: "/blog/6-months-of-blogging/"
 ---
 
 ## Why?
@@ -43,12 +43,12 @@ Here are all 6 blog posts ranked by number of pageviews:
 
 | Page | Pageviews |
 | ---- | --------- |
-| <a class="no-underline" href="/intro-to-neural-networks/">/blog/intro-to-neural-networks/</a> | 36,453 |
-| <a class="no-underline" href="/a-javascript-bug-i-had-once/">/blog/a-javascript-bug-i-had-once/</a> | 6,675 |
-| <a class="no-underline" href="/properly-size-images/">/blog/properly-size-images/</a> | 3,721 |
-| <a class="no-underline" href="/how-i-became-a-programmer/">/blog/how-i-became-a-programmer/</a> | 2,122 |
-| <a class="no-underline" href="/why-you-should-use-webpack/">/blog/why-you-should-use-webpack/</a> | 1,753 |
-| <a class="no-underline" href="/better-profanity-detection-with-scikit-learn/">/blog/better-profanity-detection-with-scikit-learn/</a> | 1,331 |
+| <a class="no-underline" href="/blog/intro-to-neural-networks/">/blog/intro-to-neural-networks/</a> | 36,453 |
+| <a class="no-underline" href="/blog/a-javascript-bug-i-had-once/">/blog/a-javascript-bug-i-had-once/</a> | 6,675 |
+| <a class="no-underline" href="/blog/properly-size-images/">/blog/properly-size-images/</a> | 3,721 |
+| <a class="no-underline" href="/blog/how-i-became-a-programmer/">/blog/how-i-became-a-programmer/</a> | 2,122 |
+| <a class="no-underline" href="/blog/why-you-should-use-webpack/">/blog/why-you-should-use-webpack/</a> | 1,753 |
+| <a class="no-underline" href="/blog/better-profanity-detection-with-scikit-learn/">/blog/better-profanity-detection-with-scikit-learn/</a> | 1,331 |
 
 ## Goals for Year One
 

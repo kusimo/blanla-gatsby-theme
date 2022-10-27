@@ -36,37 +36,32 @@ const ReadMoreLink = ({
     frontmatter: { description, img, featuredImage, slug, title },
   },
 }: LinkProps) => (
-  <div>
-    <Link
-      to={slug}
-      onClick={() => {
-        logEvent('ReadMore', 'click');
-      }}
-    >
-      {featuredImage !== null
-      ? <GatsbyImage
-      alt={title}
-      className={styles['readmore-thumbnail']}
-      placeholder="tracedSVG"
-      image={ getImage(featuredImage)}
-      />
-      : ''
-      }
-    </Link>
-    <div className={styles['body']}>
-      <Link
+  <div className={ slug === null ? styles['readmore-no-post'] : 'suggest' }>
+    {slug !== null
+    ? <Link
         to={slug}
         onClick={() => {
           logEvent('ReadMore', 'click');
         }}
       >
+    {featuredImage !== null
+    ? <GatsbyImage
+      alt={title}
+      className={styles['readmore-thumbnail']}
+      placeholder="tracedSVG"
+      image={ getImage(featuredImage)}
+      />
+    : ''}
+    <div className={styles['body']}>
         <b>{title}</b>
-      </Link>
       <p>
         <b>{dateModifiedFormatted || dateFormatted}</b>
       </p>
-      <p>{description}</p>
+      <p className={styles['description']}>{description}</p>
     </div>
+    </Link>
+    : ''}
+
   </div>
 );
 
@@ -74,11 +69,12 @@ const ReadMore = ({ prevPost, nextPost }: Props) => (
   <div className={styles['readmore']}>
     <h4 className={styles['readmore-title']}>YOU MIGHT ALSO LIKE</h4>
     <div className={styles['readmore-links']}>
-      <ReadMoreLink post={prevPost} />
-      <ReadMoreLink post={nextPost} />
+      { prevPost !== null ? <ReadMoreLink post={prevPost} /> : ''}
+      {nextPost !== null ? <ReadMoreLink post={nextPost} /> : ''}
     </div>
   </div>
 );
+
 
 export const fragment = graphql`
   fragment ReadMoreFragment on MarkdownRemark {

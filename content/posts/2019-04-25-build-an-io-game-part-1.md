@@ -4,7 +4,7 @@ date: "2019-04-25T12:00:00.000Z"
 dateModified: "2022-03-12T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/build-an-io-game-part-1/"
+slug: "/blog/build-an-io-game-part-1/"
 img: "https://victorzhou.com/media/io-game-post/screenshot.png"
 isWeb: true
 category: "Game Development"
@@ -14,8 +14,8 @@ tags:
   - "Javascript"
   - "For Beginners"
 description: A deep dive into the client-side Javascript of an .io game.
-prev: "/build-an-io-game-part-2/"
-next: "/how-i-became-a-programmer/"
+prev: "/blog/build-an-io-game-part-2/"
+next: "/blog/how-i-became-a-programmer/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1121503205425332224
 discussLinkReddit: https://www.reddit.com/r/gamedev/comments/i23pen/i_made_a_tutorial_series_on_on_building/
 popularity: 66

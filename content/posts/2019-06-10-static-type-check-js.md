@@ -3,7 +3,7 @@ title: Should You Static Type Check Your Javascript?
 date: "2019-06-10T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/why-static-type-check-javascript/"
+slug: "/blog/why-static-type-check-javascript/"
 img: "https://victorzhou.com/media/flow-post/flow-homepage.png"
 isWeb: true
 category: "Javascript"
@@ -13,8 +13,8 @@ tags:
   - "Flow"
   - "Best Practices"
 description: The pros and cons of using a static type checker for Javascript.
-prev: "/using-flow-with-nodejs/"
-next: "/why-you-should-use-webpack/"
+prev: "/blog/using-flow-with-nodejs/"
+next: "/blog/why-you-should-use-webpack/"
 ---
 
 Javascript is **dynamically typed**: it performs type checking at **runtime**. On the other hand, a **statically typed** language like C performs type checking at **compile time**. Allow me to illustrate the difference. Here's some simple C code:

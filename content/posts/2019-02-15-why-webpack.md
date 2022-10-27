@@ -3,7 +3,7 @@ title: Why Webpack? (or, How Not to Serve Javascript)
 date: "2019-02-15T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/why-you-should-use-webpack/"
+slug: "/blog/why-you-should-use-webpack/"
 img: "https://victorzhou.com/media/webpack.png"
 category: "Web Development"
 tags:
@@ -11,8 +11,8 @@ tags:
   - "Javascript"
   - "Best Practices"
 description: "I learned this the hard way, but hopefully you don't have to."
-prev: "/minify-svgs/"
-next: "/properly-size-images/"
+prev: "/blog/minify-svgs/"
+next: "/blog/properly-size-images/"
 popularity: 6
 ---
 

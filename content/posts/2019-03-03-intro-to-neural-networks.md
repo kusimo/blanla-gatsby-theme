@@ -5,7 +5,7 @@ dateModified: "2022-09-16T12:00:00.000Z"
 template: "post"
 usesKatex: true
 draft: false
-slug: "/intro-to-neural-networks/"
+slug: "/blog/intro-to-neural-networks/"
 img: "https://victorzhou.com/media/neural-network-post/network3.png"
 isML: true
 category: "Machine Learning"
@@ -16,7 +16,7 @@ tags:
   - "For Beginners"
 description: "A simple explanation of how they work and how to implement one from scratch in Python."
 prev: "/series/neural-networks-from-scratch/"
-next: "/intro-to-rnns/"
+next: "/blog/intro-to-rnns/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1102644406727966722
 discussLinkHN: https://news.ycombinator.com/item?id=19320217
 discussLinkReddit: https://www.reddit.com/r/Python/comments/axnvut/implementing_a_neural_network_from_scratch_in/

@@ -94,16 +94,12 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
 
       <div className={styles['post__footer']}>
         {tags && <Tags tags={tags} tagSlugs={post.fields.tagSlugs} />}
-        {prevPost && nextPost && <ReadMore prevPost={prevPost} nextPost={nextPost} />}
         <div className={styles['post__authorContainer']}>
           <Author showBio showTwitter />
         </div>
+        {prevPost && nextPost && <ReadMore prevPost={prevPost} nextPost={nextPost} />}
         <Share url={slug} title={title} />
         <Discuss twitter={discussLinkTwitter} hn={discussLinkHN} reddit={discussLinkReddit} />
-      </div>
-
-      <div className={styles['post__comments']}>
-        <Comments />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ title: "Creating and Selling Multiplayer (.io) Web Games"
 date: "2019-05-24T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/creating-and-selling-io-games/"
+slug: "/blog/creating-and-selling-io-games/"
 img: "https://victorzhou.com/photo2-large.png"
 asyncScript: "//cdn.changelog.com/embed.js"
 category: "Game Development"
@@ -13,8 +13,8 @@ tags:
   - "Javascript"
   - "Node.js"
 description: I was on an episode of The Changelog podcast!
-prev: "/build-an-io-game-part-1/"
-next: "/how-i-became-a-programmer/"
+prev: "/blog/build-an-io-game-part-1/"
+next: "/blog/how-i-became-a-programmer/"
 discussLinkTwitter: https://twitter.com/victorczhou/status/1132027194862182400
 ---
 

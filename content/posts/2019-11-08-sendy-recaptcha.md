@@ -4,7 +4,7 @@ date: "2019-11-08T12:00:00.000Z"
 dateModified: "2019-11-09T12:00:00.000Z"
 template: "post"
 draft: false
-slug: "/sendy-recaptcha-security/"
+slug: "/blog/sendy-recaptcha-security/"
 img: "https://victorzhou.com/media/sendy-recaptcha/recaptcha.png"
 isWeb: true
 category: "Security"
@@ -14,8 +14,8 @@ tags:
   - "Best Practices"
   - "Web Development"
 description: Sendy's reCAPTCHA implementation doesn't do anything.
-prev: "/csrf/"
-next: "/xss/"
+prev: "/blog/csrf/"
+next: "/blog/xss/"
 discussLinkHN: https://news.ycombinator.com/item?id=21483597
 discussLinkReddit: https://www.reddit.com/r/programming/comments/dtiurq/sendy_is_insecure_how_not_to_implement_recaptcha/
 discussLinkTwitter: https://twitter.com/victorczhou/status/1192880134354657280
