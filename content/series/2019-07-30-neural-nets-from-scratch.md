@@ -8,16 +8,9 @@ isML: true
 slug: "/series/neural-networks-from-scratch/"
 seriesSlugs:
   - "/blog/intro-to-neural-networks/"
-  - "/blog/intro-to-rnns/"
-  - "/blog/intro-to-cnns-part-1/"
-  - "/blog/intro-to-cnns-part-2/"
 category: "Series"
 tags:
   - "Series"
-  - "Neural Networks"
-  - "Machine Learning"
-  - "Python"
-  - "For Beginners"
 img: "https://victorzhou.com/media/nn-series/network.png"
 description: "A 4-post series that provides a fundamentals-oriented approach towards understanding Neural Networks."
 descriptionLong: "A 4-post series that provides a fundamentals-oriented approach towards understanding Neural Networks. Covers classic Neural Networks, Recurrent Neural Networks (RNNs), and Convolutional Neural Networks (CNNs)."
