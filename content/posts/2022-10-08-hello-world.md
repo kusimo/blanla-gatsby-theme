@@ -7,11 +7,10 @@ isML: true
 slug: "/hello-world/"
 img: "https://blanla.com/media/1/shutterstock_215948584-1.png"
 featuredImage: "./media-link/1/shutterstock_215948584-1.png"
-category: "Python"
+category: "Javascript"
 tags:
  - "Javascript"
  - "Performance"
- - "Python"
  - "React"
 description: This is my first blog. Make it count.
 next: "/create-faq-in-liquid/"

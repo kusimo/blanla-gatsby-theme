@@ -97,7 +97,7 @@ const tagDescriptions = {
       </p>
       <p>
         If you're new to Neural Networks, I recommend reading my{' '}
-        <Link to="/series/neural-networks-from-scratch">
+        <Link to="/series/custom-html-audio-player">
           <b>Neural Networks From Scratch</b>
         </Link>{' '}
         Series first.

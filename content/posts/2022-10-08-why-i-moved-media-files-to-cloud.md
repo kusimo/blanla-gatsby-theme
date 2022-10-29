@@ -7,7 +7,7 @@ isML: true
 slug: "/why-i-moved-media-files-to-cloud/"
 img: "https://blanla.com/media/40/20221007_125544-scaled.jpg"
 featuredImage: "./media-link/40/20221007_125544-scaled.jpg"
-category: "Python"
+category: "Web Development"
 tags:
  - "Web Development"
 description: Cloud hosting can save you a lot in cost over-time. 

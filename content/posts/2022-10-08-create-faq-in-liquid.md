@@ -7,7 +7,7 @@ isML: true
 slug: "/create-faq-in-liquid/"
 img: "https://blanla.com/media/16/gold-price.jpeg"
 featuredImage: "./media-link/16/gold-price.jpeg"
-category: "Python"
+category: "Shopify"
 tags:
  - "Shopify"
 description: Learn how to create a FAQ with liquid

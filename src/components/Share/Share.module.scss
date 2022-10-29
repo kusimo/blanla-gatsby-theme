@@ -12,8 +12,8 @@
   }
 
   &-buttons {
-    display: flex;
-    flex-direction: row;
+    display: unset;
+    flex-direction: column;
     justify-content: center;
 
     > * {
@@ -22,8 +22,8 @@
     }
 
     button {
-      color: var(--color-white); // don't invert
-      width: 100%;
+      color: white; // don't invert
+      width: 50%;
       text-transform: uppercase;
       font-weight: 900;
     }
@@ -69,5 +69,15 @@
 @include breakpoint-sm {
   .share {
     @include margin-top(1.5);
+
+    &-buttons {
+      display: flex;
+      flex-direction: row;
+    }
+
+    button {
+      width: 100%;
+    }
   }
+  
 }

@@ -60,7 +60,7 @@ const Series = ({ htmlEnd, series, seriesPosts }: Props) => {
     <Post
       post={series}
       contentFooter={
-        <div>
+        <aside>
           {nodes.map((node, i) => (
             <SeriesPost
               key={node.frontmatter.title}
@@ -73,7 +73,7 @@ const Series = ({ htmlEnd, series, seriesPosts }: Props) => {
             className={contentStyles['content__body']}
             dangerouslySetInnerHTML={{ __html: htmlEnd }}
           />
-        </div>
+        </aside>
       }
       hideDescription
     />

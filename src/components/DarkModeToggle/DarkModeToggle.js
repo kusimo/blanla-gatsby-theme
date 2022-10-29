@@ -12,8 +12,8 @@ import {
 } from '../../utils/darkmode';
 
 const ICONS = {
-  checked: <img src="/media/moon.svg" alt="dark mode" />,
-  unchecked: <img src="/media/sun.svg" alt="light mode" />,
+  checked: <img src="/media/moon.svg" width="14" height="14" alt="dark mode" />,
+  unchecked: <img src="/media/sun.svg" width="14" height="14" alt="light mode" />,
 };
 
 const DarkModeToggle = () => {
@@ -51,7 +51,12 @@ const DarkModeToggle = () => {
     return <div style={{ width: 50 }} />;
   }
 
-  return <Toggle checked={checked} icons={ICONS} onChange={onChange} />;
+  return (
+    <>
+      <Toggle name="toggle-dark-mode" id="footer-dark-mode-modal" checked={checked} icons={ICONS} onChange={onChange} />
+      <label htmlFor='footer-dark-mode-modal'>{ checked ? ' Dark' : ' Light'}</label>
+    </>
+    );
 };
 
 export default DarkModeToggle;

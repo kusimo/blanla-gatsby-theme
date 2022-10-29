@@ -26,9 +26,12 @@ const SeriesPost = ({
 }: Props) => (
   <div className={styles['series-post']}>
     <div className={styles['series-post-content']}>
-      <Link to={slug}>
-        <img src={img} alt={title} loading="lazy" />
+      {img !== null
+      ? <Link to={slug}>
+      <img src={img} alt={title} loading="lazy" />
       </Link>
+      : ''
+      }
       <div>
         <h3>
           <Link to={slug}>{`${n}. ${title}`}</Link>

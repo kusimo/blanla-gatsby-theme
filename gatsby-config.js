@@ -153,7 +153,6 @@ module.exports = {
             formats: [
                 'auto',
                 'webp',
-                'avif',
             ],
             quality: 90,
             placeholder: 'tracedSVG',

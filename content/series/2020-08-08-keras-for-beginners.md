@@ -47,7 +47,7 @@ At the end of each post, you'll have the full code to accomplish everything list
 
 **This series requires ZERO prior experience with Keras or Tensorflow.** However, background in the following topics may be helpful:
 
-- [**Neural Networks**](/tag/neural-networks/) in general (how do they work, what are they for?). I recommend my [Neural Networks from Scratch](/series/neural-networks-from-scratch/) series to get started here.
+- [**Neural Networks**](/tag/neural-networks/) in general (how do they work, what are they for?). I recommend my [Neural Networks from Scratch](/series/custom-html-audio-player/) series to get started here.
 - **Python** - basic familiarity with the language will help you move through the series faster.
 - Experience with other deep-learning libraries, which will help you ramp up faster on Keras.
 

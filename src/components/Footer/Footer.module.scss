@@ -4,9 +4,11 @@
 .footer {
     width: 100%;
     overflow: hidden;
+    margin-top: 64px;
     &__inner {
         position: relative;
         padding: 25px 20px 0;
+        border-top: 1px solid var(--color-gray-border);
     }
 }
 
@@ -43,7 +45,19 @@
     .footer {
         lost-column: 3/3;
         &__inner {
-            padding: 40px;
+            padding: 16px;
         }
+        margin-top: 90px;
     }
 }
+
+.dark-mode-toggle {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+  
+    &.mobile {
+      display: flex;
+      align-items: center;
+    }
+  }

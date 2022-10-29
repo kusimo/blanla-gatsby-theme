@@ -75,11 +75,11 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
         guestCoAuthor={guestCoAuthor}
         guestAuthorLink={guestAuthorLink}
       />
-
-      <div className={styles['post__viewSource']}>
+        {featuredImage !== null
+        ? <div className={styles['post__viewSource']}>
         <p>
-          <i>
-            This blog is{' '}
+          <>
+            Photo from{' '}
             <a
               href="https://github.com/kusimo/blanla.com"
               target="_blank"
@@ -88,9 +88,11 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
               open-source on Github
             </a>
             .
-          </i>
+          </>
         </p>
       </div>
+        : ''
+        }
 
       <div className={styles['post__footer']}>
         {tags && <Tags tags={tags} tagSlugs={post.fields.tagSlugs} />}

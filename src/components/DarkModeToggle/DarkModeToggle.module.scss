@@ -48,7 +48,7 @@
   }
 
   .react-toggle--checked .react-toggle-track {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
   }
 
   .react-toggle-track-check {
@@ -116,5 +116,11 @@
   .react-toggle--checked .react-toggle-thumb {
     left: 27px;
     border-color: var(--color-primary);
+  }
+
+  label {
+    margin-left: 9px;
+    letter-spacing: .9px;
+    cursor: pointer;
   }
 }
