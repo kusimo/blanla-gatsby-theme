@@ -7,6 +7,7 @@
     .headroom {
         padding-left: 0.05rem;
         padding-right: 0.05rem;
+        z-index: 3!important;
         @media screen and (min-width:685px) {
             padding-right: 2rem;
             padding-left: 2rem;
