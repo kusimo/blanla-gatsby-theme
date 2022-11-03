@@ -1,6 +1,6 @@
 ---
 title: "Html5 Playlist Audio Player with Vanilla JavaScript"
-date: "2019-03-03T12:00:00.000Z"
+date: "2022-08-03T12:00:00.000Z"
 dateModified: "2022-09-16T12:00:00.000Z"
 template: "post"
 usesKatex: false

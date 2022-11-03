@@ -5,6 +5,8 @@ import * as React from 'react';
 import rehypeReact from 'rehype-react';
 
 import ContentDate from '../ContentDate';
+import PlatformContext from '../PlatformContext';
+import TableOfContents from '../TableOfContents';
 import GuestAuthor from '../GuestAuthor';
 import styles from './Content.module.scss';
 
@@ -16,9 +18,11 @@ const renderAst = new rehypeReact({
   Fragment: React.Fragment,
 }).Compiler;
 
+
 type Props = {|
   +htmlAst: Object,
   +title: string,
+  +slug: string,
   +img: string,
   +featuredImage: Object,
   +subtitle: ?string,
@@ -34,6 +38,8 @@ const Content = ({
   htmlAst,
   title,
   img,
+  slug,
+  postNav,
   featuredImage,
   subtitle,
   dateFormatted,
@@ -70,9 +76,15 @@ const Content = ({
           </div>
         )}
       </div>
-      
+
     </header>
-     
+    {typeof postNav !== 'undefined' && postNav.length > 1
+    ? <PlatformContext
+      threshold={1200}
+      render={isMobile => isMobile && <TableOfContents location="inner" headings={postNav} />}
+    />
+  : ''}
+
     <div className={styles['content__spacer']} />
     <div className={styles['content__body']}>{renderAst(htmlAst)}</div>
     {footer}
@@ -91,6 +103,7 @@ export const fragment = graphql`
     frontmatter {
       ...GuestAuthorFragment
     }
+    
   }
 `;
 

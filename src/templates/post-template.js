@@ -7,9 +7,11 @@ import Helmet from 'react-helmet';
 import FixedScrollContainer from '../components/FixedScrollContainer';
 import Layout from '../components/Layout';
 import NavHeader from '../components/NavHeader';
+import PlatformContext from '../components/PlatformContext';
 import Post from '../components/Post';
 import Footer from '../components/Footer';
 import Series from '../components/Series';
+import TableOfContents from '../components/TableOfContents';
 import TemplateWrapper from '../components/TemplateWrapper';
 
 const CarbonAd = loadable(() => import('../components/CarbonAd'));
@@ -118,7 +120,7 @@ const PostTemplate = ({ data, pageContext }: Props) => {
         {isSeries ? (
           <Series htmlEnd={data.seriesEnd.html} series={slugNode} seriesPosts={data.seriesPosts} />
         ) : (
-          <Post post={slugNode} prevPost={prevNode} nextPost={nextNode} />
+          <Post post={slugNode} prevPost={prevNode} headings={slugNode.headings} nextPost={nextNode} />
         )}
       </Layout>
 
@@ -130,6 +132,13 @@ const PostTemplate = ({ data, pageContext }: Props) => {
           </FixedScrollContainer>
         </>
       )}
+
+       {typeof slugNode.headings !== 'undefined' && slugNode.headings.length > 1
+        ? <PlatformContext
+          threshold={1200}
+          render={isMobile => !isMobile && <TableOfContents headings={slugNode.headings} />}
+        />
+      : ''}
        <Footer />
     </TemplateWrapper>
   );
@@ -152,6 +161,7 @@ export const fragment = graphql`
       edges {
         node {
           ...PostFragment
+          ...TableOfContentsFragment
           excerpt(pruneLength: 5000)
           fields {
             tagSlugs

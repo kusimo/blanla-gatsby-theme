@@ -39,7 +39,7 @@ type Props = {|
   +hideDescription?: boolean,
 |};
 
-const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Props) => {
+const Post = ({ post, prevPost, nextPost, headings, contentFooter, hideDescription }: Props) => {
   const {
     tags,
     title,
@@ -66,6 +66,8 @@ const Post = ({ post, prevPost, nextPost, contentFooter, hideDescription }: Prop
         htmlAst={htmlAst}
         title={title}
         img={img}
+        slug={slug}
+        postNav={headings}
         featuredImage={featuredImage}
         subtitle={hideDescription ? null : description}
         dateFormatted={dateFormatted}

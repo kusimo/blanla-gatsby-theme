@@ -66,7 +66,7 @@
         width: 100%;
         z-index: 1;
         left: 50px;
-        background: var(--color-primary);
+        background: unset;
         opacity: .5;
       }
 
@@ -75,7 +75,7 @@
       left: -7px;
       background: unset;
       opacity: .7; 
-      border: 7px solid var(--color-secondary);
+      border: 7px solid $color-accent;
       }
     }
 

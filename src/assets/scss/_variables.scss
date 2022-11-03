@@ -6,10 +6,12 @@
 $_color-base: #222;
 $_color-primary: #164BC5;
 $_color-secondary: #080;
+$_color-accent: #ffe88c;
 $_color-primary-light: lighten($_color-primary, 12%);
 $_color-primary-light-fade: lighten($_color-primary, 54%);
 $_color-secondary-light: lighten($_color-secondary, 12%);
 $_color-gray-shadow: lighten($_color-base, 60%);
+$_color-accent-light: darken($_color-accent, 45%);
 
 :root {
   --color-background: #FFF;
@@ -17,10 +19,12 @@ $_color-gray-shadow: lighten($_color-base, 60%);
   --color-primary: #{$_color-primary};
   --color-secondary: #{$_color-secondary};
   --color-secondary-green: #{$_color-secondary};
+  --color-accent: #{$_color-accent};
   --color-white: #FFF;
   --color-black: #000;
 
   --color-gray: #{lighten($_color-base, 35%)};
+  --color-gray-dark: #{lighten($_color-base, 25%)};
   --color-gray-shadow: #{$_color-gray-shadow};
   --color-gray-light-shadow: #{lighten($_color-base, 70%)};
   --color-gray-border: #{lighten($_color-base, 75%)};
@@ -38,11 +42,13 @@ $_color-gray-shadow: lighten($_color-base, 60%);
   --color-base: #eee;
   --color-primary: #{$_color-secondary-light};
   --color-secondary: #{$_color-primary-light};
+  --color-accent: #{$_color-accent-light};
   --color-secondary-green: #{$_color-secondary-light};
   --color-white: #000;
   --color-black: #FFF;
 
   --color-gray: #{invert(lighten($_color-base, 30%))};
+  --color-gray-dark: #{invert(lighten($_color-base, 20%))};
   --color-gray-shadow: #{invert(lighten($_color-base, 60%))};
   --color-gray-light-shadow: #{invert(lighten($_color-base, 70%))};
   --color-gray-border: #{invert(lighten($_color-base, 57%))};
@@ -56,11 +62,13 @@ $_color-gray-shadow: lighten($_color-base, 60%);
 $color-base: var(--color-base);
 $color-primary: var(--color-primary);
 $color-secondary: var(--color-secondary);
+$color-accent: var(--color-accent);
 
 $color-white: var(--color-white);
 $color-gray: var(--color-gray);
 $color-gray-shadow: var(--color-gray-shadow);
 $color-gray-light-shadow: var(--color-gray-light-shadow);
+$color-gray-dark: var(--color-gray-dark);
 $color-gray-border: var(--color-gray-border);
 $color-gray-bg: var(--color-gray-bg);
 
