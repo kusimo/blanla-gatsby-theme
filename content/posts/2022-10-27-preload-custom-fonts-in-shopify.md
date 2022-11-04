@@ -17,7 +17,7 @@ prev: "/why-i-moved-media-files-to-cloud/"
 
 ![](./media-link/56/anthony-cantin-3_zN3Z8nI0w-unsplash-scaled.jpg) ## Block level HTML by default - Lorem take
 - Area this tall
-- make the **rain** as big as
+- make the **rain** as big as <code class="note">sample</code>
 
 ```javascript
 let bonus = 14.99;
@@ -27,6 +27,20 @@ let no_bonus = false;
 if (salary > 50000) {
 	no_bonus = true;
 }
+```
+
+```javascript{1,4-6}
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
 ```
   
     

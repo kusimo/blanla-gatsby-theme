@@ -35,10 +35,10 @@ The details and summary tags act like an accordion element, you click on an elem
     </details>
 </div>
 
-> Inside the details element, the summary tag is the only element that is shown by default, everything else is hidden. You can show the content inside details by adding the 'open' property to the details tag. 
+> Inside the details element, the summary tag is the only element that is shown by default, everything else is hidden. You can show the content inside details by adding the <code class="note">open</code> property to the details tag. 
 
 ### Change the summary tag default arrow
-The summary has a default arrow (see above) which we are able to hide or change.  To hide the arrow, we need to add 'none' as the value to the 'list-style-type' attribute. I will also create space for the custom arrow that we are going to be adding by adding extra CSS attributes.
+The summary has a default arrow (see above) which we are able to hide or change.  To hide the arrow, we need to add <code>none</code> as the value to the <code>list-style-type</code> attribute. I will also create space for the custom arrow that we are going to be adding by adding extra CSS attributes.
 
 
 ```css
@@ -160,7 +160,7 @@ The example below used HTML and CSS only to achieve a toggle on FAQ.
 <div id="example-7" class="feature-faq">
         <h2 class="section-header__title_text blue-title">
             <span class="heading-title-text">
-                Frequently Asked Question
+                Example Toggle FAQ
             </span>
         </h2>
         <div class="faq-element">

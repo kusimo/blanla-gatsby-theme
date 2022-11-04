@@ -166,6 +166,22 @@
       font-style: normal;
       padding: 3px 4px;
     }
+    code[class*='note'], code {
+      color: #c411e8;
+      font-weight: 600;
+      overflow-wrap: break-word;
+      &:before {
+        content: "`";
+      }
+      &:after {
+        content: "`";
+      }
+    }
+    pre> code {
+      &::after, &::before {
+        content: none;
+      }
+    }
 
     // stylelint-disable
     // stylelint doesn't recognize :global() from css-modules
