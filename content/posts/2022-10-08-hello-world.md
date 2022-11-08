@@ -4,14 +4,13 @@ date: "2022-10-08T13:34:53+01:00"
 dateModified: "2022-10-27T20:53:09+01:00"
 template: "post"
 isML: true
+draft: true
 slug: "/hello-world/"
 img: "https://blanla.com/media/1/shutterstock_215948584-1.png"
 featuredImage: "./media-link/1/shutterstock_215948584-1.png"
 category: "Javascript"
 tags:
  - "Javascript"
- - "Performance"
- - "React"
 description: This is my first blog. Make it count.
 next: "/create-faq-in-liquid/"
 ---

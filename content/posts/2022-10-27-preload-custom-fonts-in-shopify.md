@@ -4,6 +4,7 @@ date: "2022-10-27T15:56:01+01:00"
 dateModified: "2022-10-29T00:14:51+01:00"
 template: "post"
 isML: true
+draft: true
 slug: "/preload-custom-fonts-in-shopify/"
 img: "https://blanla.com/media/56/azzedine-rouichi-oSbuS1q2Mw8-unsplash-scaled.jpg"
 featuredImage: "./media-link/56/azzedine-rouichi-oSbuS1q2Mw8-unsplash-scaled.jpg"

@@ -27,8 +27,8 @@ module.exports = {
   ],
   author: {
     name: 'Abidemi Kusimo',
-    photo: '/photo2.jpg',
-    photoLarge: '/photo2-large.jpg',
+    photo: '/author-image.png',
+    photoLarge: '/author-image-large.png',
     bio:
       'Frontend Web Developer. I blog about <a href="/tag/web-development/">web development</a>, and <a href="/tags/">more topics</a>.',
     contacts: {
@@ -42,18 +42,6 @@ module.exports = {
     {
       label: 'JavaScript',
       path: '/tag/javascript',
-    },
-    {
-      label: 'Python',
-      path: '/tag/python/',
-    },
-    {
-      label: 'Shopify',
-      path: '/tag/shopify/',
-    },
-    {
-      label: 'React',
-      path: '/tag/react/',
     },
     {
       label: 'Web Development',

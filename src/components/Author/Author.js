@@ -12,9 +12,9 @@ export const PureAuthor = ({ author, showBio, showTwitter, small }) => {
       <div className={styles['author__header']}>
           <StaticImage
             alt={author.name}
-            src="./image/photo2.jpg"
-            width={40}
-            height={40}
+            src="./image/author-image.png"
+            width={90}
+            height={90}
             className={styles['author__header-photo']}
           />
         <div className={styles['author__header-right']}>

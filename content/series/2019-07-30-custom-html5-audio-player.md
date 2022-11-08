@@ -10,7 +10,7 @@ seriesSlugs:
   - "/html5-playlist-audio-player-vanilla-javascript/"
 category: "Series"
 tags:
-  - "Series"
+  - "Web Development"
 img: "https://victorzhou.com/media/nn-series/network.png"
 description: "A 4-post series that provides a fundamentals-oriented approach towards understanding Neural Networks."
 descriptionLong: "A 4-post series that provides a fundamentals-oriented approach towards understanding Neural Networks. Covers classic Neural Networks, Recurrent Neural Networks (RNNs), and Convolutional Neural Networks (CNNs)."

@@ -19,7 +19,7 @@ exports[`Sidebar renders correctly 1`] = `
           <img
             alt="name"
             className="author__photo"
-            src="/photo2.jpg"
+            src="/author-image.png"
           />
         </Link>
         <div

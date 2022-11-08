@@ -18,12 +18,10 @@ if (process.env.LIVE_DEPLOY !== 'true') {
 const sftp = new Client();
 
 // Set public dir
-const pubDir = '/home/asufu/asufutimaehaehfutbw.com/';
+const pubDir = process.env.SFTP_PUBLIC;
 
 sftp.connect(config)
-  .then(() => {
-    return sftp.list(pubDir);
-  })
+  .then(() => sftp.list(pubDir))
   .then(data => {
     console.log(data);
     // eslint-disable-next-line no-restricted-syntax

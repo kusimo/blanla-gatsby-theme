@@ -4,6 +4,7 @@ date: "2022-10-08T20:20:02+01:00"
 dateModified: "2022-10-27T20:49:15+01:00"
 template: "post"
 isML: true
+draft: true
 slug: "/why-i-moved-media-files-to-cloud/"
 img: "https://blanla.com/media/40/20221007_125544-scaled.jpg"
 featuredImage: "./media-link/40/20221007_125544-scaled.jpg"

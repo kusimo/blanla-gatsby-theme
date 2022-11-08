@@ -10,10 +10,9 @@ isML: true
 category: "Javascript"
 tags:
   - "Javascript"
-  - "For Beginners"
 description: "A simple explanation of how to create playlist player with JavaScript."
-prev: "/create-faq-in-liquid/"
-next: "/preload-custom-fonts-in-shopify/"
+prev: "/show-hide-element-html-css/"
+next: "/unexpected-token-in-json-at-position-0-in-javascript/"
 
 ---
 

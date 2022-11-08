@@ -190,26 +190,7 @@ const tagDescriptions = {
     <>
       <p>
         I love building websites.{' '}
-        <Link to="/about/">Two of my favorite (and most successful) side projects</Link> were
-        websites that I built, scaled, and sold from scratch. I've done web development at several
-        tech companies and am now a full stack web engineer at Facebook.
       </p>
-      <p>
-        My Web Development blog posts cover a wide range of topics, from{' '}
-        <Link to="/tag/performance/">performance</Link> to <Link to="/tag/security/">security</Link>{' '}
-        to building web games. My most popular ones include:
-      </p>
-      <ul>
-        <li>
-          <Link to="/blog/build-an-io-game-part-1/">How to Build a Multiplayer (.io) Web Game</Link>
-        </li>
-        <li>
-          <Link to="/blog/replacing-disqus/">Why I Replaced Disqus and You Should Too</Link>
-        </li>
-        <li>
-          <Link to="/blog/minify-svgs/">Minify Your SVGs</Link>
-        </li>
-      </ul>
     </>
   ),
 };

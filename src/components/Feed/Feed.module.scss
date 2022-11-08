@@ -15,6 +15,7 @@
     overflow: hidden;
     border-radius: 1rem;
     background-color: var(--color-white);
+
     @media screen and (min-width:1200px) {
       gap: 15px;
       min-width: calc(50% - 16px);
@@ -22,9 +23,33 @@
       margin-bottom: 32px;
     }
 
+    img {
+      clip-path: polygon(50% -50%, 150% 150%, 50% 150%, -50% -50%);
+      }
+
     &-feed-thumbnail {
       max-height: 250px;
-      background-color: var(--color-gray-bg);
+      background-color: var(--color-accent);
+     
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background: var(--color-secondary);
+        top: 0;
+        z-index: -1;
+        opacity: .3;
+      }
+    }
+    &:hover &-feed-thumbnail {
+        clip-path: polygon(0% -100%, 0% 100%, 150% 150%, 100% -50%);
+        animation:shapeFrames 0.85s linear forwards;
+    }
+    &:hover &-feed-thumbnail img {
+      clip-path: polygon(150% -50%, 150% 150%, 50% 150%, -50% 0%);
     }
     
     &-body {
@@ -102,5 +127,16 @@
     }
 
   }
+}
 
+@keyframes shapeFrames 
+{
+  0% 
+  {
+    
+  }
+  100% 
+  {
+    clip-path:polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+  }
 }

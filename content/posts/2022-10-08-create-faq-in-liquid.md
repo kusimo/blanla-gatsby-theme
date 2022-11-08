@@ -4,6 +4,7 @@ date: "2022-10-08T18:30:24+01:00"
 dateModified: "2022-10-27T20:41:03+01:00"
 template: "post"
 isML: true
+draft: true
 slug: "/create-faq-in-liquid/"
 img: "https://blanla.com/media/16/gold-price.jpeg"
 featuredImage: "./media-link/16/gold-price.jpeg"

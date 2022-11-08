@@ -10,7 +10,7 @@ category: "Web Development"
 tags:
  - "Web Development"
 description: Toggle (Hide and show) elements on a page using HTML and CSS only. We use details and summary HTML tags. We also use a checkbox that targets its siblings to control when an element is to be shown or hidden.
-prev: "/preload-custom-fonts-in-shopify/"
+prev: "/unexpected-token-in-json-at-position-0-in-javascript/"
 ---
 You can show or hide elements on a page in many different ways. We are going to focus and hiding/showing element **when user interact with it (click)**. 
 I will show you my preferred method of achieving this using HTML and CSS only, I will also show you another method in which this can be achieved. 

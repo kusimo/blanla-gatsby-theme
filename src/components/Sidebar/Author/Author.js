@@ -11,7 +11,7 @@ const Author = ({ author }) => (
       <Link to="/">
         <StaticImage
             alt={author.name}
-            src="../../Author/image/photo2.jpg"
+            src="../../Author/image/author-image.png"
             width={75}
             height={75}
             className={styles['author__photo']}
