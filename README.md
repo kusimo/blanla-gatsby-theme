@@ -66,7 +66,7 @@ npm run deploy-live
 
 ![](./static/screenshot-3.png)
 
-## Features available but disabled / uncommented out
+## Features available but disabled
 There are other features I am not using on my site, this project was forked from [victorzhou.com](https://github.com/vzhou842/victorzhou.com). I have disabled the following features.
 
 - Comment
