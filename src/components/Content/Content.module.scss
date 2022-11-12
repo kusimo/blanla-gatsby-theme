@@ -5,6 +5,7 @@
   max-width: $layout-post-single-width;
   padding: 0 $layout-mobile-padding;
   margin: 0 auto;
+  
 
   &__has-featured-image {
     padding-top: 120px;
@@ -124,7 +125,7 @@
       margin: 0;
       margin-left: -$layout-mobile-padding;
       padding: 0 0 0 ($layout-mobile-padding - 2px);
-      font-style: italic;
+      font-style: normal;
       font-size: $typographic-base-font-size;
       font-weight: 300;
 
@@ -165,6 +166,7 @@
       color: $_color-base; // don't invert
       font-style: normal;
       padding: 3px 4px;
+      color:#573A38;
     }
     code[class*='note'], code {
       color: #c411e8;
@@ -182,6 +184,9 @@
         content: none;
       }
     }
+
+   
+   
 
     // stylelint-disable
     // stylelint doesn't recognize :global() from css-modules
@@ -325,6 +330,7 @@
 
       & :global(.gatsby-highlight code[class*='language-']) {
         font-size: $typographic-base-font-size * 1;
+        color: #573A38;
       }
 
       & :global(.gatsby-code-header) + :global(.gatsby-highlight),
