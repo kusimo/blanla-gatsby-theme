@@ -1,6 +1,6 @@
-# blanla.com
+# Blanla.com
 
-## Featured
+## Features
 - Featured image
 - Post thumbnail
 - Table of contents
@@ -8,16 +8,17 @@
 - Related post / Suggested
 - Social share
 - Dark / Light mode toggle
-- Google Adsense, Carbon Advert
-- Google Analytics
-- Post pagination
 - Tags
 - Optimised for core web vital
 
 
 ![](./static/screenshot-1.png)
 
-This is a site built with [Gatsby.js](https://www.gatsbyjs.org/) using [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen). To get started:
+### Demo 
+[blanla.com](https://blanla.com/)
+
+
+This is a site built with [Gatsby.js](https://www.gatsbyjs.org/) using [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen). Hosted on shared hosting package. To get started:
 
 >I'm using node version 14, if you have NVM (Node Version Manager) installed, use it to switch to node version 14 as this will not work well with the latest version of node.
 
@@ -74,6 +75,6 @@ There are other features I am not using on my site, this project was forked from
 ### Todo
 
 - [ ] Add search 
-- [ ] Add Gatsby dracula theme for Prism ( Due to accesibilties issues )
+- [ ] Add Gatsby dracula theme for Prism
 - [ ] Add image credit link
 - [ ] Remove live posts and create sample posts
