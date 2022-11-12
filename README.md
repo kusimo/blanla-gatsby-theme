@@ -69,7 +69,7 @@ npm run deploy-live
 ```
 
 ### .htaccess 
-Don't forget to update the .htaccess file on the server in the document root. My document .htacess file looks as follow:
+Don't forget to update the .htaccess file on the server in the document root. Your .htacess file should look something as follow:
 
 ```code
 <IfModule mod_rewrite.c>
