@@ -1,5 +1,20 @@
 # blanla.com
 
+## Featured
+- Featured image
+- Post thumbnail
+- Table of contents
+- Prismjs - to display code in frontend
+- Related post / Suggested
+- Social share
+- Dark / Light mode toggle
+- Google Adsense, Carbon Advert
+- Google Analytics
+- Post pagination
+- Tags
+- Optimised for core web vital
+
+
 ![](./static/screenshot-1.png)
 
 This is a site built with [Gatsby.js](https://www.gatsbyjs.org/) using [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen). To get started:
@@ -55,3 +70,10 @@ There are other features I am not using on my site, this project was forked from
 
 - Comment
 - Subscribe
+
+### Todo
+
+- [] Add search 
+- [] Add Gatsby dracula theme for Prism ( Due to accesibilties issues )
+- [x] Add image credit link
+- [] Remove live posts and create sample posts
