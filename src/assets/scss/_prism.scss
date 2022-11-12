@@ -1,0 +1,23 @@
+.token.tag, .token.string, .token.url, .token.attr-value, .token.punctuation, .token.function {
+    color: #525252; }
+.token.prolog, .token.selector, .token.entity, .token.operator {
+        color: #644B26; }
+.token.atrule, .token.attr-value, .token.keyword {
+    color: #004B6B;}
+.token.doctype, .token.cdata, .token.comment {
+        color: #4B5862; }
+.token.regex, .token.important, .token.variable {
+    color: #852E00;
+}
+.gatsby-code-title {
+    font-weight: 100;
+    letter-spacing: -1px;
+ }
+
+.gatsby-code-title + div>pre, .gatsby-code-title + div {
+        border-top-right-radius: 0!important;
+        border-top-left-radius: 0!important;
+ }
+ .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+    color: #3B5700;
+}
