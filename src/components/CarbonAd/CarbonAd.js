@@ -39,7 +39,7 @@ class CarbonAd extends React.PureComponent<Props> {
     return (
       (!largeOnly || (largeOnly && window.innerWidth >= LARGE_THRESHOLD)) &&
       (!smallOnly || (smallOnly && window.innerWidth <= SMALL_THRESHOLD)) &&
-      window.location.hostname !== 'localhostu'
+      window.location.hostname !== 'localhost'
     );
   }
 

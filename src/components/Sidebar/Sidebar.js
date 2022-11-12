@@ -1,6 +1,7 @@
 // @flow
 import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
+import { useLocation } from '@reach/router'
 
 import MovableSidebarContent from '../MovableSidebarContent';
 import Author from './Author';
@@ -16,13 +17,16 @@ type PureProps = Props & {
   +data: Object,
 };
 
-export const PureSidebar = ({ data, hideSubscribeForm, hideAd, location }: PureProps) => {
+
+export const PureSidebar = ({ data, hideSubscribeForm, hideAd }: PureProps) => {
+  
   const { author } = data.site.siteMetadata;
+  const curentLocation = useLocation();
 
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
-        <Author author={author} />
+        <Author author={author} location={curentLocation} />
         <MovableSidebarContent desktop hideSubscribeForm={hideSubscribeForm} hideAd={hideAd} />
       </div>
     </div>
@@ -35,6 +39,9 @@ export const Sidebar = (props: Props) => (
       query SidebarQuery {
         site {
           siteMetadata {
+            siteUrl
+            url
+            title
             author {
               name
               photo

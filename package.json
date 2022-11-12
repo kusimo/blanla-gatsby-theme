@@ -103,6 +103,7 @@
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "eslint-watch": "^6.0.1",
     "flow-bin": "^0.107.0",
+    "gatsby-remark-prismjs-title": "^1.0.0",
     "gh-pages": "^2.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",

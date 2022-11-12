@@ -235,6 +235,26 @@
       border-bottom: 1px solid $_color-gray-shadow; // don't invert
     }
 
+    :global(.gatsby-code-title) {
+      display: block;
+      position: relative;
+      background: #272822;
+      width: 100%;
+      top: 0px;
+      border-top-left-radius: 0.3em;
+      border-top-right-radius: 0.3em;
+    }
+    
+    :global(.gatsby-code-title) span {
+      display: inline;
+      position: relative;
+      font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+      color: #eee;
+      border-left: 2px solid var(--color-accent);
+      padding: 3px 9px 3px 9px;
+      top: 0px;
+    }
+
     :global(.token.operator) {
       background: initial;
     }
@@ -320,6 +340,15 @@
         color: $_color-base; // don't invert
         @include padding(0.1, 1, 0.1, 1);
         border-top-left-radius: 5px;
+      }
+      :global(.gatsby-code-title) {
+       top: 0;
+      }
+      
+      :global(.gatsby-code-title) span {
+       left: 0px;
+       width: 100%;
+       margin: unset;
       }
 
       :global(.spacing) {

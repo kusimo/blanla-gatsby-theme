@@ -5,10 +5,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 import styles from './Author.module.scss';
 
-const Author = ({ author }) => (
+
+const Author = ({ author, location }) => (
+
   <div className={styles['author']}>
     <div className={styles['author__main-section']}>
-      <Link to="/">
+      <>
         <StaticImage
             alt={author.name}
             src="../../Author/image/author-image.png"
@@ -17,12 +19,18 @@ const Author = ({ author }) => (
             className={styles['author__photo']}
             loading="eager"
           />
-      </Link>
+      </>
       <div className={styles['author__title']}>
         <h3>
-          <Link className={styles['author__title-link']} to="/">
-            {author.name}
-          </Link>
+          {typeof location !== 'undefined' && !location.pathname.includes('/about/')
+          ? <Link className={styles['author__title-link']} to="/about/">
+          {author.name}
+         </Link>
+         : <div>
+           {author.name}
+         </div>
+          }
+
         </h3>
 
       </div>

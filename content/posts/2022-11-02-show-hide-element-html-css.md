@@ -20,8 +20,7 @@ I will show you my preferred method of achieving this using HTML and CSS only, I
 The details and summary tags act like an accordion element, you click on an element to reveal another element, and clicking again will hide the element that was revealed.  This is an example of the details and summary tags:
 
 
-```html
-// Header: Details & Summary tags
+```html:title=Details & Summary tags
 <details>
     <p>This is the hidden content, will only show when the summary is clicked. </p>
     <summary>Terms and condition</summary>
@@ -193,8 +192,7 @@ The example below used HTML and CSS only to achieve a toggle on FAQ.
         </div>
 </div>
 
-```html
-// Header: faq.html
+```html:title=faq.html
   <div class="feature-faq">
         <h2 class="section-header__title_text blue-title">
             <span class="heading-title-text">
@@ -233,8 +231,7 @@ The example below used HTML and CSS only to achieve a toggle on FAQ.
 ```
 Let's style up the FAQ by adding some CSS.
 
-```css
-// Header: faq.css
+```css:title=faq.css
      .faq-wrapper input {
             position: absolute;
             opacity: 0;

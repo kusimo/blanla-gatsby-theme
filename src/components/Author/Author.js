@@ -19,7 +19,7 @@ export const PureAuthor = ({ author, showBio, showTwitter, small }) => {
           />
         <div className={styles['author__header-right']}>
           <h3 className={styles['author__header-right-name']}>
-            <Link className={styles['author__header-right-name-link']} to="/contact/" rel="author">
+            <Link className={styles['author__header-right-name-link']} to="/about/" rel="author">
               {author.name}
             </Link>
           </h3>

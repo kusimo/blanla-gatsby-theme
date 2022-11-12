@@ -6,7 +6,7 @@ module.exports = {
   subtitle: 'Frontend Web Developer. I blog about web development.',
   copyright: 'Copyright © 2022 Abidemi Kusimo',
   postsPerPage: 8,
-  googleAnalyticsId: 'UA-58664433-1',
+  googleAnalyticsId: 'G-VYN5L1D53R',
   menu: [
     {
       label: 'Blog',

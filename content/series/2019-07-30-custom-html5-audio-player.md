@@ -17,6 +17,23 @@ descriptionLong: "A 4-post series that provides a fundamentals-oriented approach
 
 ---
 
+## HTML5 Audio Interface
+
+This tutorial details how JavaScriptpt, HTML, and CSS can be used to make a custom HTML5 audio interface. It is divided into three sections.
+
+- The Play Button
+- Track Progress
+- Changing Track Position
+- Here is the code for the audio element that we will be controlling.
+
+```js:title=example-file.js
+alert('how cool is this!');
+```
+
+
+<iframe height="300" width="600" scrolling="no" title="Home stage-1" 
+src="//codepen.io/digitalhydra/embed/preview/jPqWwP?default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+</iframe>
 
 
 

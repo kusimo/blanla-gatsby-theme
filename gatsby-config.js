@@ -130,6 +130,12 @@ module.exports = {
           },
           'gatsby-remark-autolink-headers',
           {
+            resolve: 'gatsby-remark-prismjs-title',
+            options: {
+              className: 'your-custom-class-name'
+            }
+          },
+          {
             // should be placed after gatsby-remark-autolink-headers
             resolve: 'gatsby-remark-prismjs',
             options: {

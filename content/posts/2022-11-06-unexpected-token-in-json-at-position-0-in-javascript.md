@@ -24,8 +24,7 @@ A common reason why the error occurs is that somewhere in our JSON file, we have
 
 >  Example of an invalid JSON. A single typo error like the one below will render a JSON file invalid. The last curly braces should be removed from the scope below.
   
-  ```json{5}
-// Header: image.json
+  ```json{5}:title=image.json
 {
     "type": "image",
     "extension": "png",
@@ -34,8 +33,7 @@ A common reason why the error occurs is that somewhere in our JSON file, we have
 ```
 
 > Passing empty array or empty string to the JSON.parse function. This will result in a syntax error - Unexpected end of JSON input.
-```javascript
-// Header: example-empty-array-or-string.js
+```javascript:title=example-empty-array-or-string.js
 console.log(JSON.parse([]));
 
 console.log(JSON.parse(''));
@@ -125,8 +123,7 @@ console.log('done');
 This type of error is rare, most of the time you consume JSON data from server you don't have control of. It is worth checking if the Content-Type is right. 
 
 Let's assume that we have our own server and we want to set the content type in the header. I will use PHP server for this example.
-```php
-// Header: index.php
+```php:title=index.php
 $media_arr = array(
     "type" => "image",
     "extension" => "png",
