@@ -75,6 +75,4 @@ There are other features I am not using on my site, this project was forked from
 ### Todo
 
 - [ ] Add search 
-- [ ] Add Gatsby dracula theme for Prism
 - [ ] Add image credit link
-- [ ] Remove live posts and create sample posts
