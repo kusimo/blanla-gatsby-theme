@@ -88,8 +88,9 @@ RewriteRule . /index.html [L]
 ### Page speed
 The page speed of the site is good, but adding little optimisation like expanding the static assets cache lifetime will result in even better performance.
 
-If you have not already added this to your .htaccess. This is the snippet I'm using for efficient cache policy. Add this in the .htaccess file.
+**Optional** - If you have not already added this to your .htaccess. This is the snippet I'm using for efficient cache policy. Add this in the .htaccess file.
 
+> Take extra caution when editing .htaccess file, backup up the file before you commit any change.
 
 ```code
 <FilesMatch "index\.(html|htm)$">
