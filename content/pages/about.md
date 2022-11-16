@@ -18,7 +18,7 @@ Want to get in touch? [Contact Me](/contact/).
 ## Random Facts
 - I went to university at the age of 34 to study web development. You are not too old to be a developer. Start now!
 
-- Some of the jobs have held in the past include security officer, warehouse assistance, cleaner, and freelancer. I worked as a security officer before landing my first role as a frontend developer with BrandX Digital.
+- Some of the jobs have held in the past include photographer, videographer, security officer, warehouse assistance, and freelancer. I worked as a security officer before landing my first role as a frontend developer with BrandX Digital.
 
 - I made more money working as a security officer than frontend developer (You can make more money as a frontend developer, just keep learning or go full-stack (frontend + backend).
 
