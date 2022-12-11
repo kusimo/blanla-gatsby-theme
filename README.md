@@ -1,4 +1,4 @@
-# Blanla.com
+# Blanla Gatsby Theme
 
 This is a Gatsby JS site hosted on shared hosting. This can be hosted anywhere, for example, in the cloud. The site is easy to deploy and host with any hosting provider.
 
